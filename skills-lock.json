@@ -1,0 +1,495 @@
+{
+  "version": 1,
+  "skills": {
+    "ads": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "371ed1fd01aa3cc40396f3549bd56d4826879020f79db403b4b0ac4bba73ec76"
+    },
+    "ads-audit": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "7db4bed0f1d0f89a339d79266149c4d8120aede8e44ae7ca3b690089e92692a5"
+    },
+    "ads-budget": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "a5588a2e2b3012b58fa68c6ad27ef4b42b21ad69339d7a3bfc67963f2297f56f"
+    },
+    "ads-competitor": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "10f5c5dc8341d8695d16e5f33894941d22c9e5f1b9d9064fb4e56f9c7bf05190"
+    },
+    "ads-creative": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "4c9a7c458e096756e80413ed0c62e73b7195c5f8b494ded38509c7a7f12cefc1"
+    },
+    "ads-google": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "55452ce47e31fa15e3ad28165c89964f0c4a6fd291653c7af2a321d16cd9b972"
+    },
+    "ads-landing": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "f29ac056c30ecf40bfa97eadfcd199c61ea64f3e52278a9ed2dbaff792b24dac"
+    },
+    "ads-linkedin": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "a15fa0fb43ed676a7b3dfa2540e7408ab1ec737ea9839993c0da3fa0ec552885"
+    },
+    "ads-meta": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "caafdf533497c66349c1f7652fcc2215a58b53e540e7d4dee6cbed1424590299"
+    },
+    "ads-microsoft": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "ba757f9b3459594170588390bda5db9c0d0ec59e2dd2b986b3d7980cc37c4a38"
+    },
+    "ads-plan": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "852231535f822bc41e051efffd286977e21ee2d17ebdbe2d43ef92de35147af1"
+    },
+    "ads-tiktok": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "52b48439b96b89cc7554057e401353a8bedb7b69c1fca44a5d2d7d6fea25d2c0"
+    },
+    "ads-youtube": {
+      "source": "itsjwill/ad-audit-pro",
+      "sourceType": "github",
+      "computedHash": "2b946a75b1d025c87ab55bb3838ad59683d66316e0d64519fabfd2e222d163f3"
+    },
+    "adversary": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "d4d3cb99fbf862393406a57a7026d9733978b92ad379fc3f1320a9dbb00dcce0"
+    },
+    "agent-review-panel": {
+      "source": "wan-huiyan/agent-review-panel",
+      "sourceType": "github",
+      "computedHash": "2c727dfe0d0d5de269f12e3f40abe492b19bd3f0665c46ef1f77b8a22a453a3f"
+    },
+    "anchor": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "968bfeeb2ffa17ccbc06f02d6b90adaf67e6fa2edc4351b78d8a6f4c018cd875"
+    },
+    "api-designer": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "0b2ebb7cfb66c715cb87e034c1110fbb0429fb99224156f2a5d49ba95075eebf"
+    },
+    "api-review": {
+      "source": "MuhammedZohaib/patchman",
+      "sourceType": "github",
+      "computedHash": "7974a371734e80da5bf3e52f212c2906f3137952977799b13bd42f0f89476a12"
+    },
+    "audit-logging": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "d137414f8e32fa231200fc68f0613eb73a1d42c8c356f779b82e200470824426"
+    },
+    "auth-review": {
+      "source": "MuhammedZohaib/patchman",
+      "sourceType": "github",
+      "computedHash": "126832e062f37a1acb9a4a34c4689ad271b34e8abfedc3381b6aa9a238c77db5"
+    },
+    "business-logic-review": {
+      "source": "MuhammedZohaib/patchman",
+      "sourceType": "github",
+      "computedHash": "03d39b8b791f8f98eb286001ca31b8c6780034b960337e2e774c0c4c7f1972bd"
+    },
+    "change-management": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "6dea8b9f0aaf834d06dc95d1c769ba3ecf71b87e3126c325536f228d48fcf063"
+    },
+    "claude-video": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "71a94ce4e01a4b7b53754e72ba6541ab8da30a6e0488a425148b7c9f451b7a44"
+    },
+    "claude-video-analyze": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "c9ccad24a58223465b79a120753de2447481cd7150901e25fb679e5101698a33"
+    },
+    "claude-video-audio": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "b789bfbf4c5121ac89a3eb65d14f19c6a57bad6c82d818918a4fe9bffffb55dc"
+    },
+    "claude-video-caption": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "7d05bb20418edfaa1714616874b2e112aa892dd716b32abce4b26c7411bcdc50"
+    },
+    "claude-video-create": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "d1750dbfd6c57601aaaad628f42da1bb5ab4cfc1360b912ba7e02d8b0eef3b6a"
+    },
+    "claude-video-download": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "3a94a7d0f32ccae75c43edb3b7da3f1c0997d3227b7b4b8861a4f62a68209002"
+    },
+    "claude-video-edit": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "952985d3a3fa3ea9981b7b19d6f75d1346458a844792dcdeb18db223965d0bf7"
+    },
+    "claude-video-enhance": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "9b3612bd92506b1c1dcda3e90d2902b45e2a4fe6000028826b7344ea88edf26d"
+    },
+    "claude-video-enhance-audio": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "d5e6d5d8abf6099f7567c4a866ddd98aa3a98a12239d3e4d8b8285a35be935fd"
+    },
+    "claude-video-export": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "6cf045a225546835bed15d2b62d1d528505e82b7fbd28d6bda82131546db43a3"
+    },
+    "claude-video-generate": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "016d5bc55384471c5e7acc1660a07852b87926b1b6269524784d1dbac349fac4"
+    },
+    "claude-video-image": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "53ebb37520fd772379fafddd7204200333611ff75de841cb92662ecce2bbe585"
+    },
+    "claude-video-promo": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "63ac4d419e9bfb9fc121334757302994567d16addfb3584b5313277744994c9f"
+    },
+    "claude-video-screenshot": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "b08b087596b195530592f252254bf443a8c18cb1ac5a662abb2474d039586281"
+    },
+    "claude-video-shorts": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "d531ecc70a4c4b829589eeb95f202a682bb219180a6337ef20f5c2e374d38095"
+    },
+    "claude-video-transcode": {
+      "source": "AgriciDaniel/claude-video",
+      "sourceType": "github",
+      "computedHash": "43b1a53f05860be40847ff5955217a7e29c807cae4d5c3eba740143f38da43c2"
+    },
+    "code-security-audit": {
+      "source": "LeonMelamud/claude-code-security-review",
+      "sourceType": "github",
+      "computedHash": "80fd9afef3afa45f8ac321f9731bf63761b993e3f68e3df1f8a99d655a7d0de2"
+    },
+    "compliance-hub": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "46b7695019f01fa3c1bdb11e6bbf7f149f97aa8b047ef732602cffc1e7e31545"
+    },
+    "complisec": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "conductor": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "4f85796aeb08012026ff8662ec3c9c3c3204353c93c015ce464aec4fac547968"
+    },
+    "contradict": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "2cff26589f8fae9c32bca3f9838969aade069c1a14802e85bb638fa52362dfae"
+    },
+    "coolify-migrate": {
+      "source": "fazer-ai/coolify-migrate",
+      "sourceType": "github",
+      "computedHash": "731e98e3b8fa076cc9a62b2147571d6d68348f0a985147975a4e1f9be031c734"
+    },
+    "copy-engineer": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "9459693d6d6d6430c356aee5a81f1c592b708f706f19553f1148043fed38e092"
+    },
+    "data-sensitivity": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "6398a9af6290f57b2ddf97fafc573d22678250c7f2531d576d9e598bdd702bfe"
+    },
+    "deep-research": {
+      "source": "24601/agent-deep-research",
+      "sourceType": "github",
+      "computedHash": "73f047e4f2346b0fa7156c81e973d1392afbff84d51a089a8ee8b4b044daeaf0"
+    },
+    "deep-think": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "2096d399213d9b427acd1759f3cbdeec641cf89709cd570a8576b7b777929085"
+    },
+    "descend": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "3ce19aa82b3a1820c5ac99ea7af5ca6702b47ac771158407f7f8eddcd8a6cabc"
+    },
+    "ditto-content-marketing": {
+      "source": "Ask-Ditto/ditto-content-marketing",
+      "sourceType": "github",
+      "computedHash": "06a10bea36f1ff450093886c454dc12b2de19a19238b83611b26e1cc5208dd48"
+    },
+    "ditto-voc-programme": {
+      "source": "Ask-Ditto/ditto-voc-programme",
+      "sourceType": "github",
+      "computedHash": "4df745e23200006c0698548d5d7d6d72d13d6edddcbc65000e48126d7aac74a7"
+    },
+    "diverge": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "118e93e467bf65e560d6ad60daece7395b7130eda35e249203f984e305349936"
+    },
+    "doc-harness": {
+      "source": "cilidinezy-commits/doc-harness",
+      "sourceType": "github",
+      "computedHash": "6fac79719a2aae44ddce9367d56c97379224ac534a0cb6d899ec6b50e58f6fab"
+    },
+    "doc2ahp-decision": {
+      "source": "hongxin/doc2ahp",
+      "sourceType": "github",
+      "computedHash": "943e590414b39c1ae673ef4f6f9c2ce6ef81aabafaa6bdc648da74df721ff200"
+    },
+    "emergence": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "e02effb4d257f1bc7fcb12ed45509538b86b8370e36efabb1a287e8d4fa37925"
+    },
+    "eu-compliance-directives": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "ead18caea7170dc466f4e2d139b1a9451d28b2e43a36958eed342ed0fc650f3d"
+    },
+    "excavate": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "c74d5e57511c709a75c5c5b1354032a6290d16959ac19f6eb06762c9126c3874"
+    },
+    "fidelity": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "528e905fdcebdda5a478965a7e6d0567d4a458a02fed59e59aa3f60bf20b7bf3"
+    },
+    "game-day-dashboard": {
+      "source": "buildkit-ai/game-day-dashboard",
+      "sourceType": "github",
+      "computedHash": "3b4a0841fb247741f70a7076660c6c50867a49397c86d58814b93f73b84a87df"
+    },
+    "guardrails": {
+      "source": "adewale/guardrails-skill",
+      "sourceType": "github",
+      "computedHash": "66ad225cd69808d1a3444701030c16ba93403bde0eef116ccaa7f410a925da33"
+    },
+    "incident-management": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "70af93a211be3b0a234fa4f40a267c034e998185ed2330598c25729c3f0a4ce7"
+    },
+    "invert": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "fa5dc27dfae920455cc65c36c6c7c6556286dd115727644fb0baec2dbbe5ec23"
+    },
+    "macos-disk-cleanup": {
+      "source": "choism4/macos-disk-cleanup",
+      "sourceType": "github",
+      "computedHash": "5618cf22c04ecbad234796de5761c55411c5e9b4776b9ee2a79aa0d5e737cea7"
+    },
+    "matrix-communication": {
+      "source": "netresearch/matrix-skill",
+      "sourceType": "github",
+      "computedHash": "bc45a2c52436a6dacf9c152ca322e721d887e6a960c37414626ef8e90d3913c4"
+    },
+    "mmm-api-reference": {
+      "source": "Yakoub-ai/agent-mmm",
+      "sourceType": "github",
+      "computedHash": "786382000b6a3ad766fa3f3eda39a277fff703e0d84d657c4750db03d22d842b"
+    },
+    "mmm-attribution": {
+      "source": "Yakoub-ai/agent-mmm",
+      "sourceType": "github",
+      "computedHash": "6249be62512e8a90f0621bd08ed6a026a4b29ed80bb0e135031ab6a2aca8798c"
+    },
+    "mmm-budget-optimization": {
+      "source": "Yakoub-ai/agent-mmm",
+      "sourceType": "github",
+      "computedHash": "bebf6ee1d3ba4d8aa35c0034f460681d7cf4f96344712deef09684cb6f9565a0"
+    },
+    "mmm-data-quality": {
+      "source": "Yakoub-ai/agent-mmm",
+      "sourceType": "github",
+      "computedHash": "a516c48246e11fc10aa8b3552e26e06b705e987b38c59a43d28175b8fff57228"
+    },
+    "mmm-diagnostics": {
+      "source": "Yakoub-ai/agent-mmm",
+      "sourceType": "github",
+      "computedHash": "3212091627332e1229914bf5b2dbd1577a43c4a19af562376a46a11204c9acae"
+    },
+    "mmm-model-building": {
+      "source": "Yakoub-ai/agent-mmm",
+      "sourceType": "github",
+      "computedHash": "be4c63cb4ee249083e95d80f797f7a0ebb0d565b739ee8cb8abe44ba891bd57c"
+    },
+    "mobile-engineer": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "f2b1692ab0ebb728ff98cdf67639f2660f6122187ed21b779d3bcc7237996638"
+    },
+    "negative-space": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "090abb5c67245dcd72a14bb70ddb6ec64bbe4cd84eae23f9baf2a11af72d2f4a"
+    },
+    "nis2-gap-analysis": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "9e4dea2ac9b6287f80d440b3a0c9da54fc4d87a4db848f324baae98ccc632abb"
+    },
+    "org-profile": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "3bb1f4bb0f00e4f64778c2ac544c2bd0acfedfa0d90f536c60f0675205eea837"
+    },
+    "performance-engineer": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "dce362bfc1f912708cc16cfbfbe121add24be77103b71e64ad1a3c24a8cf5f4a"
+    },
+    "plan-review-integrator": {
+      "source": "wan-huiyan/agent-review-panel",
+      "sourceType": "github",
+      "computedHash": "db77623f83162dfb8e7a7b9975052c2878ba5a39688789df4625bf813a48641d"
+    },
+    "pr-diff-review": {
+      "source": "MuhammedZohaib/patchman",
+      "sourceType": "github",
+      "computedHash": "3a4d7f6a6a45ddd471aaa085e380aeeb00c7404b444e065747263dd31226892d"
+    },
+    "product-engineer": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "442e915d1204cbe62097635c1ae806dd72d6177eec03dc4ecc8c1c1200e8fbb9"
+    },
+    "provenance": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "fb0728079e0647d3a43ba3325b57082db449e2220b40c6faf3c58177fcd87576"
+    },
+    "query-review": {
+      "source": "MuhammedZohaib/patchman",
+      "sourceType": "github",
+      "computedHash": "532e37a3aa7daee374bf4131e9506a0fc7457069391694f8a3832754e49ed0d8"
+    },
+    "questionably-ultrathink": {
+      "source": "snowmead/questionably-ultrathink",
+      "sourceType": "github",
+      "computedHash": "ee3015a3438d37abb48a4b436c21bd7091f6ecade3796cf3c502ff56cd10c811"
+    },
+    "questionably-ultrathink-skill": {
+      "source": "snowmead/questionably-ultrathink",
+      "sourceType": "github",
+      "computedHash": "6e6f5349bba1acd94f8810610745ed9b786e521a0965131df9edeeb749b12230"
+    },
+    "quick-triage": {
+      "source": "MuhammedZohaib/patchman",
+      "sourceType": "github",
+      "computedHash": "11fac7061b818cd23d7025ca9e4c346f20b4d79b6a562564a6e569f0269ea164"
+    },
+    "reddit-intel": {
+      "source": "carrielabs/reddit-intel",
+      "sourceType": "github",
+      "computedHash": "856ea556a27b430bcb9d626f65d137b0840de5b6a485d1f1ecfb7243bd1a287a"
+    },
+    "refactor-engineer": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "6c689805e459dfa2303c0467e041366161962f2345aadc8c4e3b57f5c9a28f1d"
+    },
+    "reframe": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "0ce5785c7c7173d7b3ad90a3e9196e4d634c47143cf48d976c1955ddb77086df"
+    },
+    "risk-assessment-writer": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "dd37da108280917127d0c4883ab69934167e334e5e24493f2723c384b940e512"
+    },
+    "security-audit": {
+      "source": "MuhammedZohaib/patchman",
+      "sourceType": "github",
+      "computedHash": "cc3de4e921d5da7d4cc5c419cf6570d0b16ea56c373df48c820d7d191f938901"
+    },
+    "security-compliance-tools": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "d3ff12c26f7e43a481118dd465b43b53c6d7e57b8998ae9bbd383515daa47af5"
+    },
+    "stitch-creative-director": {
+      "source": "udhaykumarbala/stitch-creative-director",
+      "sourceType": "github",
+      "computedHash": "e30347a0200a3ec2c4f9edbe590efc38323ca3c995465c03247c458cc5464f88"
+    },
+    "story-telling": {
+      "source": "smcfactory/story-telling",
+      "sourceType": "github",
+      "computedHash": "349a3b0d44830fc79571a2136a77ef0941f6ef80834bca7ad4ba3b390948a1df"
+    },
+    "super-cow-powers": {
+      "source": "mysticflounder/super-cow-powers",
+      "sourceType": "github",
+      "computedHash": "b290ef9dbcd7e6ebab0cd0e5642b6ca1021d8eef8a07b4fe4a528dc17cb246fd"
+    },
+    "system-architect": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "08cd60801a671a5f2e264f7d7444710e2d68a20ba94540b961f214ac29bbe6d7"
+    },
+    "telegram": {
+      "source": "awrshift/skill-telegram",
+      "sourceType": "github",
+      "computedHash": "7958848a80cf3efd12e5fcd6c6acf71f507014cd4f61d233e48bdb70a905a308"
+    },
+    "temporal": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "3d124bdbba4e65187ff2f33526458b62c2a7975ac80fe99dfeb0b75181e479e8"
+    },
+    "threshold": {
+      "source": "Kshitijpalsinghtomar/depth-skills",
+      "sourceType": "github",
+      "computedHash": "a9c5f52ebd3aacecbf00b7c596b882fa45daec9aa6dfa52ba752a77a110a7405"
+    },
+    "vendor-risk": {
+      "source": "eyesecurity/skills",
+      "sourceType": "github",
+      "computedHash": "f052ff24cb2dd7f12b278406f4aff6129688e1076ed4cfe86a70ab792b026e14"
+    },
+    "whystrohm-audit": {
+      "source": "whystrohm/whystrohm-audit",
+      "sourceType": "github",
+      "computedHash": "e3dd73f67367aa52e1e60bbed3718e696b44beecf8486ce4ebabc7f787d914bd"
+    }
+  }
+}

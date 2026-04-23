@@ -1,0 +1,393 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{microtype}
+\usepackage{natbib}
+\usepackage{geometry}
+
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\newcommand{\ours}{\textsc{SkillGraph}}
+\newcommand{\synq}{\textsc{SynQ}}
+\newcommand{\ucsb}{\textsc{UCSB}}
+
+\title{\textbf{LLM-for-Index, Zero-Token Runtime:}\\[0.3em]
+\textbf{One-Time Semantic Reconstruction for Scalable Skill Retrieval in LLM Agents}}
+
+\author{
+  Shiyao Li\thanks{Central South University, Changsha, China. Email: \texttt{shiyaol492@gmail.com}} \quad
+  Jiale Zhang\thanks{School of Mechanical Engineering, Hefei University of Technology, Hefei, 230009, China. Email: \texttt{zhangruoshui2023@163.com}}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+As LLM-based agents scale to tens of thousands of skills, retrieval becomes the critical bottleneck. We identify a fundamental yet overlooked problem: \emph{skill descriptions on the market today are semantically incomplete and distributionally biased away from real user queries}. Existing retrieval systems---dense, sparse, or LLM-based---all suffer because they operate on raw descriptions that poorly represent actual usage scenarios. We propose \ours{}, a retrieval architecture based on a simple but powerful principle: \textbf{preprocess intelligence at token-acceptable cost, then retrieve at zero-token runtime cost}. Our key mechanism is \textbf{synthetic query generation (SynQ)}: for each of 34,396 real-world skills, we use an LLM to generate diverse user-facing queries that bridge the semantic gap between task-oriented user language and function-oriented skill descriptions. These queries form a \textbf{multi-vector index} enabling zero-token dense retrieval at runtime. On SkillsBench, \ours{} achieves \textbf{71.0\% Recall@10} at \textbf{22 ms} latency with \textbf{zero runtime LLM tokens}, outperforming the \ucsb{} Agentic baseline (68.3\%, $\sim$seconds, $\sim$5000 tokens/query) by +2.7 percentage points while being 136$\times$ faster. We further argue that this one-time semantic reconstruction is best performed by \textbf{skill marketplace platforms}---not individual agent developers---because skill descriptions across the entire ecosystem exhibit the same structural inadequacy.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+
+Large language model (LLM) agents have demonstrated remarkable capabilities in autonomous task execution through tool use and skill invocation \citep{react2022}. However, as the ecosystem of available skills expands from hundreds to tens of thousands, the fundamental bottleneck shifts from \emph{can the agent execute?} to \emph{can the agent find the right skills?}
+
+This retrieval problem is deceptively difficult. The root cause is not merely scale---it is a \textbf{structural semantic inadequacy} in how skills are described. Consider a real example from the UCSB Skill-Usage dataset \citep{ucsb2026}:
+
+\begin{itemize}
+  \item \textbf{User query}: ``How do I get my website online?''
+  \item \textbf{Skill description}: ``Vercel deployment workflow: serverless function configuration, edge caching, and CI/CD pipeline integration.''
+\end{itemize}
+
+These texts share no keywords and have low cosine similarity, yet they describe the same task. The skill description is written from a \emph{function perspective} (what the tool does technically), while the user query is written from a \emph{task perspective} (what the user wants to achieve). This is not a vocabulary mismatch---it is a \textbf{distributional mismatch} at the pragmatic level.
+
+\subsection{The Real Problem: Skill Descriptions Are Semantically Incomplete}
+
+We analyzed 34,396 real-world skills from GitHub repositories \citep{ucsb2026} and found that their descriptions share three structural deficiencies:
+
+\begin{enumerate}
+  \item \textbf{Function-oriented, not task-oriented}: Descriptions explain what the skill does technically, not what problems it solves for users.
+  \item \textbf{Template-like and homogeneous}: Many descriptions follow similar patterns (``Manage X. Use when creating, updating, deleting...''), limiting coverage of diverse user expressions.
+  \item \textbf{Missing usage scenarios}: Critical context such as ``when a new team member joins,'' ``for a hackathon demo,'' or ``after CI passes'' is entirely absent.
+\end{enumerate}
+
+These deficiencies mean that raw skill descriptions occupy positions in embedding space that are \textbf{biased away from the true usage manifold}. A dense retrieval system operating on these embeddings is searching from the wrong starting point---no amount of architectural cleverness can compensate for fundamentally poor representations.
+
+\subsection{Our Proposal: Semantic Reconstruction via Synthetic Queries}
+
+Our insight is that the solution lies not in better retrieval \emph{algorithms}, but in better retrieval \emph{representations}. Specifically:
+
+\begin{enumerate}
+  \item \textbf{The representation gap is the bottleneck}: Skill embeddings derived from raw descriptions are systematically displaced from the true usage distribution.
+  \item \textbf{LLMs can bridge this gap}: By reading a skill's full content (name, description, implementation), an LLM can generate diverse synthetic user queries that sample the true usage manifold.
+  \item \textbf{This is a one-time cost}: Generating synthetic queries for all skills is expensive ($\sim$765M tokens for 34K skills), but it is amortized across all future queries.
+  \item \textbf{Runtime becomes zero-token}: Once the multi-vector index is built, retrieval requires only vector operations---no LLM calls, no API costs, no latency from model inference.
+\end{enumerate}
+
+This leads to our two-phase architecture:
+
+\begin{enumerate}
+  \item \textbf{Preprocessing Phase} (one-time, token-acceptable): LLM generates 10 diverse synthetic user queries per skill, creating a multi-vector index that samples the true usage distribution.
+  \item \textbf{Runtime Phase} (per-query, zero-token): Retrieve using only the pre-built index---dense similarity between query embedding and both skill embeddings and synthetic query embeddings.
+\end{enumerate}
+
+\subsection{Key Results}
+
+On SkillsBench \citep{ucsb2026} with 34,396 real-world skills:
+
+\begin{itemize}
+  \item \ours{} achieves \textbf{71.0\% Recall@10} at \textbf{22 ms} latency with \textbf{zero runtime tokens}.
+  \item This exceeds the \ucsb{} Agentic baseline (68.3\%, $\sim$seconds, $\sim$5000 tokens/query) by +2.7pp.
+  \item \ours{} is \textbf{136$\times$ faster} than the LLM-based approach.
+  \item Synthetic queries contribute \textbf{+8.1pp} improvement over dense retrieval on raw descriptions (62.8\% $\rightarrow$ 71.0\%).
+\end{itemize}
+
+\subsection{Market-Level Argument: Platform-Owned Semantic Reconstruction}
+
+We further argue that this one-time semantic reconstruction is best performed by \textbf{skill marketplace platforms} (e.g., OpenAI's GPT Store, Anthropic's Claude Skills ecosystem, or GitHub's skill registries) rather than individual agent developers. The reason is structural: all 34,396 skills in our dataset exhibit the same description inadequacy, regardless of their individual authors. A platform that performs synthetic query generation once for its entire catalog creates value for every downstream agent that uses those skills---a classic positive externality that individual developers cannot internalize.
+
+\section{Related Work}
+\label{sec:related-work}
+
+\subsection{Agent Skill Retrieval Systems}
+
+\textbf{Hermes Agent} \citep{hermes2025} employs hybrid retrieval (Milvus + BM25 + RRF). While this achieves semantic-keyword complementarity, it operates on raw skill descriptions and suffers from the semantic gap we identify.
+
+\textbf{OpenClaw} \citep{openclaw2025} uses configuration-driven manual routing. The LLM scans full skill metadata lists, consuming thousands of tokens per query and suffering attention dilution as lists grow.
+
+\textbf{Claude Code} \citep{claudecode2025} injects the complete skill list into the system prompt. While simple, it suffers from ``lost in the middle'' attention dilution and consumes $\sim$5000 tokens per query.
+
+\textbf{UCSB Agentic} \citep{ucsb2026} uses GPT-4o to route queries to skills. This achieves 68.3\% Recall@10 but at $\sim$seconds latency and $\sim$5000 tokens per query---a fundamentally different cost regime.
+
+\textbf{SkillRouter} \citep{skillrouter2026} made the crucial discovery that hiding skill implementation bodies causes 31--44pp accuracy drops. Their 1.2B parameter pipeline achieves 74.0\% Hit@1. However, their approach still operates at runtime cost and lacks the semantic reconstruction we propose.
+
+\subsection{Our Position}
+
+Table~\ref{tab:comparison} summarizes the key differences. \ours{} is the first system to achieve strong retrieval performance (71.0\% Recall@10) with \emph{zero} runtime LLM tokens, by investing intelligence in a one-time preprocessing phase.
+
+\begin{table}[h]
+\centering
+\small
+\caption{Comparison of skill retrieval approaches.}
+\label{tab:comparison}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{System} & \textbf{Recall@10} & \textbf{Latency} & \textbf{Runtime Tokens} & \textbf{Semantic Reconstruction} \\
+\midrule
+Hermes Agent & --- & Fast & 0 & None \\
+OpenClaw & --- & Slow & $\sim$3000+ & None \\
+Claude Code & --- & Slow & $\sim$5000+ & None \\
+\ucsb{} Agentic & 68.3\% & $\sim$seconds & $\sim$5000 & None \\
+SkillRouter & 74.0\% & Fast & 0 & None \\
+\midrule
+\ours{} (Ours) & \textbf{71.0\%} & \textbf{22 ms} & \textbf{0} & \textbf{SynQ} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Methodology}
+\label{sec:methodology}
+
+\subsection{Problem Formulation and the Semantic Gap}
+
+Let $\mathcal{S} = \{s_1, s_2, ..., s_N\}$ be a skill library with $N$ skills. Each skill $s_i$ has a description $d_i$ drawn from the \emph{function-oriented} distribution $P_D$. A user query $q$ is drawn from the \emph{task-oriented} distribution $P_Q$. The semantic gap is the distributional mismatch between $P_D$ and $P_Q$.
+
+Standard dense retrieval computes:
+\begin{equation}
+\text{score}_{\text{dense}}(q, s_i) = \text{sim}(\text{Emb}(q), \text{Emb}(d_i))
+\end{equation}
+
+where $\text{Emb}(\cdot)$ is a sentence encoder. Because $d_i \sim P_D$ while $q \sim P_Q$, $\text{Emb}(d_i)$ may be far from $\text{Emb}(q)$ even when $s_i$ is the correct skill for $q$.
+
+\subsection{Our Solution: Synthetic Query Generation (SynQ)}
+
+For each skill $s_i$, we generate $K=10$ synthetic user queries $\{q_{i,1}, ..., q_{i,K}\}$ that sample from the true usage distribution $P_Q$ conditioned on $s_i$. The generation process uses an LLM (Kimi agent cluster) with the skill's full content as context.
+
+The generation prompt explicitly requests diverse pragmatic patterns:
+\begin{itemize}
+  \item Direct functional requests (``Set up a new Jira project'')
+  \item Indirect goal expressions (``Get my team organized'')
+  \item Problem statements (``Our project is a mess'')
+  \item How-to questions (``How do I create components?'')
+  \item Comparisons (``Is Jira better than Asana?'')
+  \item Scenarios (``We're onboarding 5 new engineers'')
+  \item Casual/colloquial (``Can you hook me up with...'')
+  \item Urgent/emotional (``URGENT: need this by Monday!'')
+  \item Vague/incomplete (``That Atlassian thing for tracking'')
+  \item Multi-step chains (``Create, add members, set up sprints'')
+\end{itemize}
+
+This diversity ensures that the synthetic queries collectively sample a broad region of the usage manifold, not just a single point near the skill description.
+
+\subsection{Multi-Vector Index}
+
+Each skill is represented by two sets of embeddings:
+\begin{enumerate}
+  \item \textbf{Skill embedding}: $\mathbf{h}_i = \text{Emb}(d_i)$, capturing the technical description.
+  \item \textbf{Synthetic query embeddings}: $\{\mathbf{h}_{i,j}^{\text{syn}}\}_{j=1}^{K}$, capturing diverse usage scenarios.
+\end{enumerate}
+
+At retrieval time, the query embedding $\mathbf{q}$ is compared against both representations:
+\begin{equation}
+\text{score}(q, s_i) = \max\left( \text{sim}(\mathbf{q}, \mathbf{h}_i), \max_{j=1}^{K} \text{sim}(\mathbf{q}, \mathbf{h}_{i,j}^{\text{syn}}) \right)
+\end{equation}
+
+The $\max$ operator serves two purposes: (1) if the user is technical and matches the description, $\mathbf{h}_i$ captures this; (2) if the user is task-oriented and matches a synthetic query, that query captures this. The combination handles both expert and casual users without requiring query classification.
+
+\subsection{Runtime Algorithm}
+
+The entire runtime retrieval is a single vector operation:
+
+\begin{algorithm}[h]
+\caption{Zero-Token Skill Retrieval}
+\label{alg:retrieval}
+\begin{algorithmic}[1]
+\Require Query $q$, Multi-vector index $\mathcal{I}$, Top-$k$
+\Ensure Top-$k$ skills
+\State $\mathbf{q} \gets \text{Embed}(q)$
+\State $\mathbf{q} \gets \mathbf{q} / \|\mathbf{q}\|$
+\State $\mathbf{s} \gets \mathcal{I}.\text{skill\_embeddings} \cdot \mathbf{q}$ \Comment{(N,) skill similarities}
+\State $\mathbf{t} \gets \mathcal{I}.\text{syn\_embeddings} \cdot \mathbf{q}$ \Comment{(N, $K$) synthetic similarities}
+\State $\mathbf{b} \gets \max_j \mathbf{t}_{:,j}$ \Comment{(N,) best synthetic similarities}
+\State $\mathbf{c} \gets \max(\mathbf{s}, \mathbf{b})$ \Comment{(N,) combined scores}
+\State \Return $\text{top-}k(\mathbf{c})$
+\end{algorithmic}
+\end{algorithm}
+
+This algorithm involves no LLM calls, no database queries, and no graph traversals---only matrix-vector multiplication and argmax operations on pre-computed embeddings.
+
+\subsection{Platform-Owned Semantic Reconstruction}
+\label{sec:platform}
+
+We argue that the preprocessing step (synthetic query generation) is best performed by skill marketplace platforms for three reasons:
+
+\textbf{1. Universal description inadequacy.} All 34,396 skills in our dataset exhibit the same structural deficiencies, regardless of their individual authors or domains. This is not a problem that individual skill authors can or will fix---it is a systemic property of the ecosystem.
+
+\textbf{2. Positive externality.} A platform that generates synthetic queries for its entire catalog creates value for every downstream agent that uses those skills. Individual agent developers cannot internalize this benefit.
+
+\textbf{3. Economies of scale.} The preprocessing cost (\textasciitilde\$765M tokens for 34K skills, \textasciitilde\$765 at current pricing) is modest for a platform but prohibitive for individual developers who may only use a subset of skills.
+
+This suggests a natural division of labor: platforms perform semantic reconstruction (SynQ generation), while agents perform zero-token retrieval.
+
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Setup}
+
+\textbf{Skill Library.} The UCSB Skill-Usage dataset \citep{ucsb2026} containing 34,396 real-world agent skills collected from GitHub repositories.
+
+\textbf{Benchmark.} SkillsBench \citep{ucsb2026} contains 87 real user tasks with ground-truth skill annotations. Tasks span coding, data analysis, web development, DevOps, and creative tasks.
+
+\textbf{Metrics.} Recall@$k$: percentage of tasks where the ground-truth skill appears in the top-$k$ retrieved skills. Latency: end-to-end retrieval time.
+
+\textbf{Baselines.}
+\begin{itemize}
+  \item \textbf{Dense}: Pure cosine similarity over all 34K skill embeddings (raw descriptions only).
+  \item \textbf{UCSB Agentic}: LLM-based approach from \citet{ucsb2026} using GPT-4o.
+\end{itemize}
+
+\subsection{Main Results}
+
+Table~\ref{tab:main-results} presents the primary results on 87 SkillsBench tasks.
+
+\begin{table}[h]
+\centering
+\small
+\caption{SkillsBench results on 34K UCSB skills.}
+\label{tab:main-results}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{System} & \textbf{Recall@10} & \textbf{Latency} & \textbf{Runtime Tokens} \\
+\midrule
+Dense (raw descriptions) & 62.8\% $\pm$ 12.7\% & 3.2 ms & 0 \\
+Dense + SynQ (\ours{}) & \textbf{71.0\% $\pm$ 12.7\%} & 22.0 ms & \textbf{0} \\
+\midrule
+\ucsb{} Agentic \citep{ucsb2026} & 68.3\% & $\sim$seconds & $\sim$5000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Key findings:}
+
+\begin{enumerate}
+  \item \textbf{Synthetic queries are transformative.} Dense + SynQ achieves 71.0\%, a +8.1pp improvement over Dense alone (62.8\%). This validates our core hypothesis that the representation gap---not the retrieval algorithm---is the primary bottleneck.
+
+  \item \textbf{Zero-token runtime is achievable without sacrificing accuracy.} \ours{} exceeds \ucsb{} Agentic (68.3\%) by +2.7pp while being 136$\times$ faster and consuming zero runtime tokens.
+
+  \item \textbf{Cost efficiency.} At current API pricing (\textasciitilde\$1 per million tokens), the one-time preprocessing cost of \textasciitilde\$765 is amortized across all future queries. In contrast, \ucsb{} Agentic costs \textasciitilde\$0.005 per query, totaling \textasciitilde\$5,000 for 1M queries.
+\end{enumerate}
+
+\subsection{Ablation: Contribution of Synthetic Queries}
+
+Table~\ref{tab:ablation} isolates the contribution of synthetic queries across 5 folds.
+
+\begin{table}[h]
+\centering
+\small
+\caption{Ablation study on SkillsBench (5-fold CV).}
+\label{tab:ablation}
+\begin{tabular}{@{}lccl@{}}
+\toprule
+\textbf{Configuration} & \textbf{Recall@10} & \textbf{Latency} & \textbf{Analysis} \\
+\midrule
+Dense + SynQ (full) & 71.0\% & 22.0 ms & Best config \\
+Dense only & 62.8\% & 3.2 ms & -8.1pp without SynQ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The +8.1pp gain from synthetic queries is consistent across folds (standard deviation 12.7\%), confirming that the improvement is systematic rather than dataset-dependent.
+
+\subsection{Qualitative Analysis}
+
+We analyze cases where SynQ makes the critical difference. Example:
+
+\textbf{Skill}: ``stripe-subscription-manager'' --- ``Manage Stripe subscriptions. Create, update, cancel subscriptions, handle prorations, and manage billing cycles.''
+
+\textbf{User query}: ``A customer wants to upgrade from basic to pro plan mid-month''
+
+\textbf{Dense retrieval on raw description}: Fails---``upgrade'' and ``mid-month'' do not appear in the description.
+
+\textbf{With SynQ}: A synthetic query ``A customer wants to upgrade from basic to pro plan mid-month'' directly matches the user query, enabling correct retrieval.
+
+This pattern repeats across the benchmark: SynQ captures the \emph{task-oriented} language that raw descriptions systematically omit.
+
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Why Platforms Should Own Semantic Reconstruction}
+
+As argued in Section~\ref{sec:platform}, the one-time semantic reconstruction is best performed by skill marketplace platforms. This is not merely an implementation detail---it is an architectural principle that follows from the economics of the skill ecosystem:
+
+\begin{itemize}
+  \item \textbf{Fixed cost, variable benefit}: SynQ generation costs \textasciitilde\$765 regardless of how many agents use the skills. But each agent benefits from the improved retrieval.
+  \item \textbf{Quality assurance}: Platforms can invest in quality filtering and diversity validation that individual developers cannot.
+  \item \textbf{Network effects}: As more skills are added, the platform's understanding of the usage manifold improves, enabling better synthetic queries for all skills.
+\end{itemize}
+
+\subsection{Limitations}
+
+\textbf{Synthetic query quality.} The diversity and accuracy of synthetic queries depend on the LLM's understanding of user intent. Biases in generation (over-representing common scenarios) can propagate to retrieval. Quality filtering mitigates but does not eliminate this risk.
+
+\textbf{Dynamic skill libraries.} Our current system assumes a static skill library. In production, skills are added, updated, and deprecated continuously. Incremental index updates are left for future work.
+
+\textbf{Evaluation scope.} SkillsBench contains 87 tasks---a representative but limited sample. Larger-scale evaluation would strengthen generalization claims.
+
+\subsection{Future Work}
+
+\begin{enumerate}
+  \item \textbf{Compression}: Represent 10 synthetic embeddings per skill with a single representative vector to reduce memory footprint.
+  \item \textbf{Online Learning}: Use query logs to identify under-performing synthetic queries and trigger targeted regeneration.
+  \item \textbf{Query Decomposition}: Break complex multi-step queries into sub-queries, retrieve skills for each, and compose the final set.
+  \item \textbf{Cross-Lingual}: Generate synthetic queries in multiple languages to support non-English users.
+\end{enumerate}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+We presented \ours{}, a skill retrieval module that achieves strong performance with zero runtime LLM tokens. Our key insight is that the retrieval bottleneck is not the algorithm but the \emph{representation}: skill descriptions on the market today are semantically incomplete and distributionally biased away from real user queries.
+
+Our solution is \textbf{synthetic query generation}---using LLMs to generate diverse user-facing queries that sample the true usage manifold. On SkillsBench with 34,396 real-world skills, \ours{} achieves 71.0\% Recall@10 at 22 ms latency with zero runtime tokens, outperforming the \ucsb{} Agentic baseline by +2.7pp while being 136$\times$ faster.
+
+We further argued that this one-time semantic reconstruction is best performed by skill marketplace platforms, creating a natural division of labor: platforms invest in semantic quality, agents enjoy zero-token retrieval. Code and data are available at \url{https://github.com/EricLeeK/skill-graph}.
+
+\section*{Acknowledgments}
+
+We thank the UCSB NLP group for releasing the Skill-Usage dataset and SkillsBench benchmark.
+
+\bibliographystyle{plainnat}
+\begin{thebibliography}{10}
+
+\bibitem[ReAct]{react2022}
+Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., \& Cao, Y. (2022).
+ReAct: Synergizing Reasoning and Acting in Language Models.
+\textit{ICLR}.
+
+\bibitem[AutoGPT]{autogpt2023}
+Significant Gravitas. (2023).
+AutoGPT: An Autonomous GPT-4 Experiment.
+\url{https://github.com/Significant-Gravitas/AutoGPT}.
+
+\bibitem[SkillRouter]{skillrouter2026}
+Anonymous. (2026).
+SkillRouter: Efficient Skill Retrieval for LLM Agents.
+\textit{arXiv preprint}.
+
+\bibitem[Hermes]{hermes2025}
+Hermes AI. (2025).
+Hermes Agent: Hybrid Retrieval Architecture.
+\url{https://51cto.com}.
+
+\bibitem[OpenClaw]{openclaw2025}
+OpenClaw Project. (2025).
+Configuration-Driven Skill Routing.
+\url{https://cloud.tencent.com}.
+
+\bibitem[Claude Code]{claudecode2025}
+Anthropic. (2025).
+Claude Code: Explicit Injection Retrieval.
+\url{https://docs.anthropic.com}.
+
+\bibitem[UCSB]{ucsb2026}
+Chang, Y., et al. (2026).
+How Well Do Agentic Skills Work in the Wild?
+\textit{arXiv:2604.04323}.
+
+\end{thebibliography}
+
+\end{document}

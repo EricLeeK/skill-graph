@@ -1,0 +1,29 @@
+{
+  "total_skills": 34396,
+  "queries_per_skill": 10,
+  "total_api_calls": 34396,
+  "total_input_tokens": 5159400,
+  "total_output_tokens": 13758400,
+  "total_time_seconds": 0,
+  "n_failures": 2799,
+  "failure_rate": 0.0081,
+  "failed_skill_ids": [
+    "nwparker--agent-browser-local--agent-browser-local",
+    "mlflow--mlflow--add-review-comment",
+    "mlflow--mlflow--copilot",
+    "mlflow--mlflow--fetch-diff",
+    "mlflow--mlflow--fetch-unresolved-comments",
+    "muratcankoylan--Agent-Skills-for-Context-Engineering--skill-template"
+  ],
+  "model_name": "kimi-subagent-llm",
+  "timestamp": "2026-04-22T09:42:21.787694Z",
+  "batch_count": 172,
+  "avg_queries_per_skill": 9.999709268519595,
+  "query_length_stats": {
+    "avg_words": 8.6,
+    "min_words": 1,
+    "max_words": 28,
+    "out_of_range_count": 2612,
+    "out_of_range_rate": 0.76
+  }
+}

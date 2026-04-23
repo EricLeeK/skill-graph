@@ -1,0 +1,439 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Made with love by Vercel" [ref=e5] [cursor=pointer]:
+          - /url: https://vercel.com
+          - img [ref=e6]
+        - img [ref=e9]
+        - link "Skills" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - navigation [ref=e12]:
+        - link "Official" [ref=e13] [cursor=pointer]:
+          - /url: /official
+        - link "Audits" [ref=e14] [cursor=pointer]:
+          - /url: /audits
+        - link "Docs" [ref=e15] [cursor=pointer]:
+          - /url: /docs
+  - generic [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: ███████╗██╗ ██╗██╗██╗ ██╗ ███████╗ ██╔════╝██║ ██╔╝██║██║ ██║ ██╔════╝ ███████╗█████╔╝ ██║██║ ██║ ███████╗ ╚════██║██╔═██╗ ██║██║ ██║ ╚════██║ ███████║██║ ██╗██║███████╗███████╗███████║ ╚══════╝╚═╝ ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
+          - generic [ref=e1549]: ███████ ██ ██ ██ ██ ██ ███████ ██ ██ ██ ██ ██ ██ ██ ███████ █████ ██ ██ ██ ███████ ██ ██ ██ ██ ██ ██ ██ ███████ ██ ██ ██ ███████ ███████ ███████
+        - paragraph [ref=e23]: The Open Agent Skills Ecosystem
+      - paragraph [ref=e25]: Skills are reusable capabilities for AI agents. Install them with a single command to enhance your agents with access to procedural knowledge.
+      - generic [ref=e26]:
+        - heading "Try it now" [level=2] [ref=e27]
+        - generic [ref=e28] [cursor=pointer]:
+          - code [ref=e29]:
+            - generic [ref=e30]: $
+            - generic [ref=e31]: npx skills
+            - generic [ref=e2106]: update
+          - button "Copy to clipboard" [ref=e35]:
+            - img [ref=e36]
+      - generic [ref=e38]:
+        - heading "Available for these agents" [level=2] [ref=e39]
+        - generic [ref=e41]:
+          - link "AMP" [ref=e42] [cursor=pointer]:
+            - /url: https://ampcode.com/
+            - img "AMP" [ref=e43]
+          - link "Antigravity" [ref=e44] [cursor=pointer]:
+            - /url: https://antigravity.google/
+            - img "Antigravity" [ref=e45]
+          - link "Claude Code" [ref=e46] [cursor=pointer]:
+            - /url: https://claude.com/product/claude-code
+            - img "Claude Code" [ref=e47]
+          - link "ClawdBot" [ref=e48] [cursor=pointer]:
+            - /url: https://clawd.bot/
+            - img "ClawdBot" [ref=e49]
+          - link "Cline" [ref=e50] [cursor=pointer]:
+            - /url: https://cline.bot/
+            - img "Cline" [ref=e51]
+          - link "Codex" [ref=e52] [cursor=pointer]:
+            - /url: https://openai.com/codex
+            - img "Codex" [ref=e53]
+          - link "Cursor" [ref=e54] [cursor=pointer]:
+            - /url: https://cursor.sh
+            - img "Cursor" [ref=e55]
+          - link "Droid" [ref=e56] [cursor=pointer]:
+            - /url: https://factory.ai
+            - img "Droid" [ref=e57]
+          - link "Gemini" [ref=e58] [cursor=pointer]:
+            - /url: https://gemini.google.com
+            - img "Gemini" [ref=e59]
+          - link "GitHub Copilot" [ref=e60] [cursor=pointer]:
+            - /url: https://github.com/features/copilot
+            - img "GitHub Copilot" [ref=e61]
+          - link "Goose" [ref=e62] [cursor=pointer]:
+            - /url: https://block.github.io/goose
+            - img "Goose" [ref=e63]
+          - link "Kilo" [ref=e64] [cursor=pointer]:
+            - /url: https://kilo.ai/
+            - img "Kilo" [ref=e65]
+          - link "Kiro CLI" [ref=e66] [cursor=pointer]:
+            - /url: https://kiro.dev/cli
+            - img "Kiro CLI" [ref=e67]
+          - link "Nous Research" [ref=e68] [cursor=pointer]:
+            - /url: https://nousresearch.com/
+            - img "Nous Research" [ref=e69]
+          - link "OpenCode" [ref=e70] [cursor=pointer]:
+            - /url: https://opencode.ai/
+            - img "OpenCode" [ref=e71]
+          - link "Roo" [ref=e72] [cursor=pointer]:
+            - /url: https://roocode.com/
+            - img "Roo" [ref=e73]
+          - link "Trae" [ref=e74] [cursor=pointer]:
+            - /url: https://www.trae.ai/
+            - img "Trae" [ref=e75]
+          - link "VSCode" [ref=e76] [cursor=pointer]:
+            - /url: https://code.visualstudio.com/
+            - img "VSCode" [ref=e77]
+          - link "Windsurf" [ref=e78] [cursor=pointer]:
+            - /url: https://codeium.com/windsurf
+            - img "Windsurf" [ref=e79]
+          - link "AMP" [ref=e80] [cursor=pointer]:
+            - /url: https://ampcode.com/
+            - img "AMP" [ref=e81]
+          - link "Antigravity" [ref=e82] [cursor=pointer]:
+            - /url: https://antigravity.google/
+            - img "Antigravity" [ref=e83]
+          - link "Claude Code" [ref=e84] [cursor=pointer]:
+            - /url: https://claude.com/product/claude-code
+            - img "Claude Code" [ref=e85]
+          - link "ClawdBot" [ref=e86] [cursor=pointer]:
+            - /url: https://clawd.bot/
+            - img "ClawdBot" [ref=e87]
+          - link "Cline" [ref=e88] [cursor=pointer]:
+            - /url: https://cline.bot/
+            - img "Cline" [ref=e89]
+          - link "Codex" [ref=e90] [cursor=pointer]:
+            - /url: https://openai.com/codex
+            - img "Codex" [ref=e91]
+          - link "Cursor" [ref=e92] [cursor=pointer]:
+            - /url: https://cursor.sh
+            - img "Cursor" [ref=e93]
+          - link "Droid" [ref=e94] [cursor=pointer]:
+            - /url: https://factory.ai
+            - img "Droid" [ref=e95]
+          - link "Gemini" [ref=e96] [cursor=pointer]:
+            - /url: https://gemini.google.com
+            - img "Gemini" [ref=e97]
+          - link "GitHub Copilot" [ref=e98] [cursor=pointer]:
+            - /url: https://github.com/features/copilot
+            - img "GitHub Copilot" [ref=e99]
+          - link "Goose" [ref=e100] [cursor=pointer]:
+            - /url: https://block.github.io/goose
+            - img "Goose" [ref=e101]
+          - link "Kilo" [ref=e102] [cursor=pointer]:
+            - /url: https://kilo.ai/
+            - img "Kilo" [ref=e103]
+          - link "Kiro CLI" [ref=e104] [cursor=pointer]:
+            - /url: https://kiro.dev/cli
+            - img "Kiro CLI" [ref=e105]
+          - link "Nous Research" [ref=e106] [cursor=pointer]:
+            - /url: https://nousresearch.com/
+            - img "Nous Research" [ref=e107]
+          - link "OpenCode" [ref=e108] [cursor=pointer]:
+            - /url: https://opencode.ai/
+            - img "OpenCode" [ref=e109]
+          - link "Roo" [ref=e110] [cursor=pointer]:
+            - /url: https://roocode.com/
+            - img "Roo" [ref=e111]
+          - link "Trae" [ref=e112] [cursor=pointer]:
+            - /url: https://www.trae.ai/
+            - img "Trae" [ref=e113]
+          - link "VSCode" [ref=e114] [cursor=pointer]:
+            - /url: https://code.visualstudio.com/
+            - img "VSCode" [ref=e115]
+          - link "Windsurf" [ref=e116] [cursor=pointer]:
+            - /url: https://codeium.com/windsurf
+            - img "Windsurf" [ref=e117]
+    - main [ref=e118]:
+      - heading "Skills Leaderboard" [level=2] [ref=e119]
+      - generic [ref=e120]:
+        - generic [ref=e1552]:
+          - generic:
+            - img
+            - img
+          - textbox "Search skills..." [active] [ref=e1553]
+          - generic:
+            - generic: /
+        - generic [ref=e124]:
+          - link "All Time (91,027)" [ref=e125] [cursor=pointer]:
+            - /url: /
+          - link "Trending (24h)" [ref=e126] [cursor=pointer]:
+            - /url: /trending
+          - link "Hot" [ref=e127] [cursor=pointer]:
+            - /url: /hot
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e130]: "#"
+            - generic [ref=e131]: Skill
+            - generic [ref=e132]: Installs
+          - generic [ref=e134]:
+            - link "1 find-skills vercel-labs/skills 1.1M" [ref=e1830] [cursor=pointer]:
+              - /url: /vercel-labs/skills/find-skills
+              - generic [ref=e1831]: "1"
+              - generic [ref=e1832]:
+                - heading "find-skills" [level=3] [ref=e1833]
+                - paragraph [ref=e1834]: vercel-labs/skills
+              - generic [ref=e1835]: 1.1M
+            - link "2 vercel-react-best-practices vercel-labs/agent-skills 327.1K" [ref=e1837] [cursor=pointer]:
+              - /url: /vercel-labs/agent-skills/vercel-react-best-practices
+              - generic [ref=e1838]: "2"
+              - generic [ref=e1839]:
+                - heading "vercel-react-best-practices" [level=3] [ref=e1840]
+                - paragraph [ref=e1841]: vercel-labs/agent-skills
+              - generic [ref=e1842]: 327.1K
+            - link "3 frontend-design anthropics/skills 308.6K" [ref=e1844] [cursor=pointer]:
+              - /url: /anthropics/skills/frontend-design
+              - generic [ref=e1845]: "3"
+              - generic [ref=e1846]:
+                - heading "frontend-design" [level=3] [ref=e1847]
+                - paragraph [ref=e1848]: anthropics/skills
+              - generic [ref=e1849]: 308.6K
+            - link "4 web-design-guidelines vercel-labs/agent-skills 261.3K" [ref=e1851] [cursor=pointer]:
+              - /url: /vercel-labs/agent-skills/web-design-guidelines
+              - generic [ref=e1852]: "4"
+              - generic [ref=e1853]:
+                - heading "web-design-guidelines" [level=3] [ref=e1854]
+                - paragraph [ref=e1855]: vercel-labs/agent-skills
+              - generic [ref=e1856]: 261.3K
+            - link "5 remotion-best-practices remotion-dev/skills 248.6K" [ref=e1858] [cursor=pointer]:
+              - /url: /remotion-dev/skills/remotion-best-practices
+              - generic [ref=e1859]: "5"
+              - generic [ref=e1860]:
+                - heading "remotion-best-practices" [level=3] [ref=e1861]
+                - paragraph [ref=e1862]: remotion-dev/skills
+              - generic [ref=e1863]: 248.6K
+            - link "6 microsoft-foundry microsoft/azure-skills 212.5K" [ref=e1865] [cursor=pointer]:
+              - /url: /microsoft/azure-skills/microsoft-foundry
+              - generic [ref=e1866]: "6"
+              - generic [ref=e1867]:
+                - heading "microsoft-foundry" [level=3] [ref=e1868]
+                - paragraph [ref=e1869]: microsoft/azure-skills
+              - generic [ref=e1870]: 212.5K
+            - button "+18 more from microsoft/azure-skills (3.9M total)" [ref=e1872] [cursor=pointer]:
+              - generic [ref=e1873]:
+                - generic [ref=e1874]: +18 more from
+                - generic [ref=e1875]: microsoft/azure-skills
+                - generic [ref=e1876]: (3.9M total)
+                - img [ref=e1877]
+            - link "25 agent-browser vercel-labs/agent-browser 192.0K" [ref=e1880] [cursor=pointer]:
+              - /url: /vercel-labs/agent-browser/agent-browser
+              - generic [ref=e1881]: "25"
+              - generic [ref=e1882]:
+                - heading "agent-browser" [level=3] [ref=e1883]
+                - paragraph [ref=e1884]: vercel-labs/agent-browser
+              - generic [ref=e1885]: 192.0K
+            - link "26 soultrace soultrace-ai/soultrace-skill 181.3K" [ref=e1887] [cursor=pointer]:
+              - /url: /soultrace-ai/soultrace-skill/soultrace
+              - generic [ref=e1888]: "26"
+              - generic [ref=e1889]:
+                - heading "soultrace" [level=3] [ref=e1890]
+                - paragraph [ref=e1891]: soultrace-ai/soultrace-skill
+              - generic [ref=e1892]: 181.3K
+            - link "27 azure-quotas microsoft/azure-skills 179.0K" [ref=e1894] [cursor=pointer]:
+              - /url: /microsoft/azure-skills/azure-quotas
+              - generic [ref=e1895]: "27"
+              - generic [ref=e1896]:
+                - heading "azure-quotas" [level=3] [ref=e1897]
+                - paragraph [ref=e1898]: microsoft/azure-skills
+              - generic [ref=e1899]: 179.0K
+            - link "28 azure-upgrade microsoft/azure-skills 166.5K" [ref=e1901] [cursor=pointer]:
+              - /url: /microsoft/azure-skills/azure-upgrade
+              - generic [ref=e1902]: "28"
+              - generic [ref=e1903]:
+                - heading "azure-upgrade" [level=3] [ref=e1904]
+                - paragraph [ref=e1905]: microsoft/azure-skills
+              - generic [ref=e1906]: 166.5K
+            - link "29 skill-creator anthropics/skills 154.6K" [ref=e1908] [cursor=pointer]:
+              - /url: /anthropics/skills/skill-creator
+              - generic [ref=e1909]: "29"
+              - generic [ref=e1910]:
+                - heading "skill-creator" [level=3] [ref=e1911]
+                - paragraph [ref=e1912]: anthropics/skills
+              - generic [ref=e1913]: 154.6K
+            - link "30 azure-ai microsoft/github-copilot-for-azure 152.3K" [ref=e1915] [cursor=pointer]:
+              - /url: /microsoft/github-copilot-for-azure/azure-ai
+              - generic [ref=e1916]: "30"
+              - generic [ref=e1917]:
+                - heading "azure-ai" [level=3] [ref=e1918]
+                - paragraph [ref=e1919]: microsoft/github-copilot-for-azure
+              - generic [ref=e1920]: 152.3K
+            - button "+13 more from microsoft/github-copilot-for-azure (2.1M total)" [ref=e1922] [cursor=pointer]:
+              - generic [ref=e1923]:
+                - generic [ref=e1924]: +13 more from
+                - generic [ref=e1925]: microsoft/github-copilot-for-azure
+                - generic [ref=e1926]: (2.1M total)
+                - img [ref=e1927]
+            - link "44 azure-cost-optimization microsoft/azure-skills 150.6K" [ref=e1930] [cursor=pointer]:
+              - /url: /microsoft/azure-skills/azure-cost-optimization
+              - generic [ref=e1931]: "44"
+              - generic [ref=e1932]:
+                - heading "azure-cost-optimization" [level=3] [ref=e1933]
+                - paragraph [ref=e1934]: microsoft/azure-skills
+              - generic [ref=e1935]: 150.6K
+            - link "45 azure-cost-optimization microsoft/github-copilot-for-azure 148.0K" [ref=e1937] [cursor=pointer]:
+              - /url: /microsoft/github-copilot-for-azure/azure-cost-optimization
+              - generic [ref=e1938]: "45"
+              - generic [ref=e1939]:
+                - heading "azure-cost-optimization" [level=3] [ref=e1940]
+                - paragraph [ref=e1941]: microsoft/github-copilot-for-azure
+              - generic [ref=e1942]: 148.0K
+            - link "46 microsoft-foundry microsoft/github-copilot-for-azure 144.3K" [ref=e1944] [cursor=pointer]:
+              - /url: /microsoft/github-copilot-for-azure/microsoft-foundry
+              - generic [ref=e1945]: "46"
+              - generic [ref=e1946]:
+                - heading "microsoft-foundry" [level=3] [ref=e1947]
+                - paragraph [ref=e1948]: microsoft/github-copilot-for-azure
+              - generic [ref=e1949]: 144.3K
+            - link "47 azure-messaging microsoft/github-copilot-for-azure 138.3K" [ref=e1951] [cursor=pointer]:
+              - /url: /microsoft/github-copilot-for-azure/azure-messaging
+              - generic [ref=e1952]: "47"
+              - generic [ref=e1953]:
+                - heading "azure-messaging" [level=3] [ref=e1954]
+                - paragraph [ref=e1955]: microsoft/github-copilot-for-azure
+              - generic [ref=e1956]: 138.3K
+            - link "48 vercel-composition-patterns vercel-labs/agent-skills 137.9K" [ref=e1958] [cursor=pointer]:
+              - /url: /vercel-labs/agent-skills/vercel-composition-patterns
+              - generic [ref=e1959]: "48"
+              - generic [ref=e1960]:
+                - heading "vercel-composition-patterns" [level=3] [ref=e1961]
+                - paragraph [ref=e1962]: vercel-labs/agent-skills
+              - generic [ref=e1963]: 137.9K
+            - link "49 azure-enterprise-infra-planner microsoft/azure-skills 124.3K" [ref=e1965] [cursor=pointer]:
+              - /url: /microsoft/azure-skills/azure-enterprise-infra-planner
+              - generic [ref=e1966]: "49"
+              - generic [ref=e1967]:
+                - heading "azure-enterprise-infra-planner" [level=3] [ref=e1968]
+                - paragraph [ref=e1969]: microsoft/azure-skills
+              - generic [ref=e1970]: 124.3K
+            - link "50 ui-ux-pro-max nextlevelbuilder/ui-ux-pro-max-skill 121.4K" [ref=e1972] [cursor=pointer]:
+              - /url: /nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max
+              - generic [ref=e1973]: "50"
+              - generic [ref=e1974]:
+                - heading "ui-ux-pro-max" [level=3] [ref=e1975]
+                - paragraph [ref=e1976]: nextlevelbuilder/ui-ux-pro-max-skill
+              - generic [ref=e1977]: 121.4K
+            - link "51 azure-hosted-copilot-sdk microsoft/github-copilot-for-azure 116.8K" [ref=e1979] [cursor=pointer]:
+              - /url: /microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk
+              - generic [ref=e1980]: "51"
+              - generic [ref=e1981]:
+                - heading "azure-hosted-copilot-sdk" [level=3] [ref=e1982]
+                - paragraph [ref=e1983]: microsoft/github-copilot-for-azure
+              - generic [ref=e1984]: 116.8K
+            - link "52 azure-observability microsoft/github-copilot-for-azure 115.5K" [ref=e1986] [cursor=pointer]:
+              - /url: /microsoft/github-copilot-for-azure/azure-observability
+              - generic [ref=e1987]: "52"
+              - generic [ref=e1988]:
+                - heading "azure-observability" [level=3] [ref=e1989]
+                - paragraph [ref=e1990]: microsoft/github-copilot-for-azure
+              - generic [ref=e1991]: 115.5K
+            - link "53 azure-kubernetes microsoft/azure-skills 112.0K" [ref=e1993] [cursor=pointer]:
+              - /url: /microsoft/azure-skills/azure-kubernetes
+              - generic [ref=e1994]: "53"
+              - generic [ref=e1995]:
+                - heading "azure-kubernetes" [level=3] [ref=e1996]
+                - paragraph [ref=e1997]: microsoft/azure-skills
+              - generic [ref=e1998]: 112.0K
+            - link "54 brainstorming obra/superpowers 110.3K" [ref=e2000] [cursor=pointer]:
+              - /url: /obra/superpowers/brainstorming
+              - generic [ref=e2001]: "54"
+              - generic [ref=e2002]:
+                - heading "brainstorming" [level=3] [ref=e2003]
+                - paragraph [ref=e2004]: obra/superpowers
+              - generic [ref=e2005]: 110.3K
+            - link "55 supabase-postgres-best-practices supabase/agent-skills 103.9K" [ref=e2007] [cursor=pointer]:
+              - /url: /supabase/agent-skills/supabase-postgres-best-practices
+              - generic [ref=e2008]: "55"
+              - generic [ref=e2009]:
+                - heading "supabase-postgres-best-practices" [level=3] [ref=e2010]
+                - paragraph [ref=e2011]: supabase/agent-skills
+              - generic [ref=e2012]: 103.9K
+            - link "56 vercel-react-native-skills vercel-labs/agent-skills 93.6K" [ref=e2014] [cursor=pointer]:
+              - /url: /vercel-labs/agent-skills/vercel-react-native-skills
+              - generic [ref=e2015]: "56"
+              - generic [ref=e2016]:
+                - heading "vercel-react-native-skills" [level=3] [ref=e2017]
+                - paragraph [ref=e2018]: vercel-labs/agent-skills
+              - generic [ref=e2019]: 93.6K
+            - link "57 shadcn shadcn/ui 92.3K" [ref=e2021] [cursor=pointer]:
+              - /url: /shadcn/ui/shadcn
+              - generic [ref=e2022]: "57"
+              - generic [ref=e2023]:
+                - heading "shadcn" [level=3] [ref=e2024]
+                - paragraph [ref=e2025]: shadcn/ui
+              - generic [ref=e2026]: 92.3K
+            - link "58 seo-audit coreyhaines31/marketingskills 80.7K" [ref=e2028] [cursor=pointer]:
+              - /url: /coreyhaines31/marketingskills/seo-audit
+              - generic [ref=e2029]: "58"
+              - generic [ref=e2030]:
+                - heading "seo-audit" [level=3] [ref=e2031]
+                - paragraph [ref=e2032]: coreyhaines31/marketingskills
+              - generic [ref=e2033]: 80.7K
+            - link "59 azure-compute microsoft/github-copilot-for-azure 78.5K" [ref=e2035] [cursor=pointer]:
+              - /url: /microsoft/github-copilot-for-azure/azure-compute
+              - generic [ref=e2036]: "59"
+              - generic [ref=e2037]:
+                - heading "azure-compute" [level=3] [ref=e2038]
+                - paragraph [ref=e2039]: microsoft/github-copilot-for-azure
+              - generic [ref=e2040]: 78.5K
+            - link "60 simple roin-orca/skills 77.3K" [ref=e2042] [cursor=pointer]:
+              - /url: /roin-orca/skills/simple
+              - generic [ref=e2043]: "60"
+              - generic [ref=e2044]:
+                - heading "simple" [level=3] [ref=e2045]
+                - paragraph [ref=e2046]: roin-orca/skills
+              - generic [ref=e2047]: 77.3K
+            - link "61 pdf anthropics/skills 77.2K" [ref=e2049] [cursor=pointer]:
+              - /url: /anthropics/skills/pdf
+              - generic [ref=e2050]: "61"
+              - generic [ref=e2051]:
+                - heading "pdf" [level=3] [ref=e2052]
+                - paragraph [ref=e2053]: anthropics/skills
+              - generic [ref=e2054]: 77.2K
+            - link "62 polish pbakaus/impeccable 73.8K" [ref=e2056] [cursor=pointer]:
+              - /url: /pbakaus/impeccable/polish
+              - generic [ref=e2057]: "62"
+              - generic [ref=e2058]:
+                - heading "polish" [level=3] [ref=e2059]
+                - paragraph [ref=e2060]: pbakaus/impeccable
+              - generic [ref=e2061]: 73.8K
+            - link "63 azure-cost microsoft/azure-skills 72.8K" [ref=e2063] [cursor=pointer]:
+              - /url: /microsoft/azure-skills/azure-cost
+              - generic [ref=e2064]: "63"
+              - generic [ref=e2065]:
+                - heading "azure-cost" [level=3] [ref=e2066]
+                - paragraph [ref=e2067]: microsoft/azure-skills
+              - generic [ref=e2068]: 72.8K
+            - link "64 critique pbakaus/impeccable 71.8K" [ref=e2070] [cursor=pointer]:
+              - /url: /pbakaus/impeccable/critique
+              - generic [ref=e2071]: "64"
+              - generic [ref=e2072]:
+                - heading "critique" [level=3] [ref=e2073]
+                - paragraph [ref=e2074]: pbakaus/impeccable
+              - generic [ref=e2075]: 71.8K
+            - link "65 pptx anthropics/skills 71.8K" [ref=e2077] [cursor=pointer]:
+              - /url: /anthropics/skills/pptx
+              - generic [ref=e2078]: "65"
+              - generic [ref=e2079]:
+                - heading "pptx" [level=3] [ref=e2080]
+                - paragraph [ref=e2081]: anthropics/skills
+              - generic [ref=e2082]: 71.8K
+            - link "66 copywriting coreyhaines31/marketingskills 71.2K" [ref=e2084] [cursor=pointer]:
+              - /url: /coreyhaines31/marketingskills/copywriting
+              - generic [ref=e2085]: "66"
+              - generic [ref=e2086]:
+                - heading "copywriting" [level=3] [ref=e2087]
+                - paragraph [ref=e2088]: coreyhaines31/marketingskills
+              - generic [ref=e2089]: 71.2K
+            - link "67 audit pbakaus/impeccable 71.1K" [ref=e2091] [cursor=pointer]:
+              - /url: /pbakaus/impeccable/audit
+              - generic [ref=e2092]: "67"
+              - generic [ref=e2093]:
+                - heading "audit" [level=3] [ref=e2094]
+                - paragraph [ref=e2095]: pbakaus/impeccable
+              - generic [ref=e2096]: 71.1K
+  - alert [ref=e1548]

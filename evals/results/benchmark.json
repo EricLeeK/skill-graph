@@ -1,0 +1,2505 @@
+{
+  "queries": [
+    {
+      "query": "How would you model time series forecast?",
+      "ground_truth_skill_id": "5090f0de",
+      "ground_truth_skill_name": "Model time series forecast (7296)"
+    },
+    {
+      "query": "I want to learn how to strategize project budget with data-driven rationale. variant 1639",
+      "ground_truth_skill_id": "1b2914fb",
+      "ground_truth_skill_name": "Strategize project budget (1639)"
+    },
+    {
+      "query": "I need someone who can audit cloud infrastructure",
+      "ground_truth_skill_id": "1ad4a86f",
+      "ground_truth_skill_name": "Audit cloud infrastructure (18024)"
+    },
+    {
+      "query": "How would you outreach client proposal with data-driven rationale. variant 16049?",
+      "ground_truth_skill_id": "da11a76c",
+      "ground_truth_skill_name": "Outreach client proposal (16049)"
+    },
+    {
+      "query": "Can you retain talent pipeline with stakeholder alignment. variant 14628?",
+      "ground_truth_skill_id": "cb321e2c",
+      "ground_truth_skill_name": "Retain talent pipeline (14628)"
+    },
+    {
+      "query": "We need to negotiate quarterly roadmap for our project",
+      "ground_truth_skill_id": "ade8dafa",
+      "ground_truth_skill_name": "Negotiate quarterly roadmap (9144)"
+    },
+    {
+      "query": "I want to learn how to troubleshoot network firewall rule",
+      "ground_truth_skill_id": "c449f536",
+      "ground_truth_skill_name": "Troubleshoot network firewall rule (6717)"
+    },
+    {
+      "query": "Find a way to budget partnership deal under tight deadlines. variant 5697",
+      "ground_truth_skill_id": "5c830b32",
+      "ground_truth_skill_name": "Budget partnership deal (5697)"
+    },
+    {
+      "query": "Looking for help to measure research grant proposal with interdisciplinary collaboration. variant 27651",
+      "ground_truth_skill_id": "35a68099",
+      "ground_truth_skill_name": "Measure research grant proposal (27651)"
+    },
+    {
+      "query": "How would you synthesize research grant proposal?",
+      "ground_truth_skill_id": "648904da",
+      "ground_truth_skill_name": "Synthesize research grant proposal (2082)"
+    },
+    {
+      "query": "What's the best approach to analyze investor presentation?",
+      "ground_truth_skill_id": "ff12e0c3",
+      "ground_truth_skill_name": "Analyze investor presentation (1952)"
+    },
+    {
+      "query": "Describe how to generate motion graphic for cross-platform use. variant 6140",
+      "ground_truth_skill_id": "585d819d",
+      "ground_truth_skill_name": "Generate motion graphic (6140)"
+    },
+    {
+      "query": "How would you review press release for multilingual markets. variant 14328?",
+      "ground_truth_skill_id": "306606af",
+      "ground_truth_skill_name": "Review press release (14328)"
+    },
+    {
+      "query": "Task: design video transition",
+      "ground_truth_skill_id": "87a125ee",
+      "ground_truth_skill_name": "Design video transition (15247)"
+    },
+    {
+      "query": "Looking for help to storyboard ui mockup for high-resolution output. variant 33118",
+      "ground_truth_skill_id": "c6f44170",
+      "ground_truth_skill_name": "Storyboard UI mockup (33118)"
+    },
+    {
+      "query": "Find a way to negotiate market entry strategy with data-driven rationale. variant 1739",
+      "ground_truth_skill_id": "b8de1d09",
+      "ground_truth_skill_name": "Negotiate market entry strategy (1739)"
+    },
+    {
+      "query": "Find a way to design video transition with animation rigging. variant 13031",
+      "ground_truth_skill_id": "371ecdbe",
+      "ground_truth_skill_name": "Design video transition (13031)"
+    },
+    {
+      "query": "I want to learn how to strategize competitive analysis with compliance requirements. variant 27493",
+      "ground_truth_skill_id": "29d8c852",
+      "ground_truth_skill_name": "Strategize competitive analysis (27493)"
+    },
+    {
+      "query": "Can you publish peer review with open science practices. variant 14446?",
+      "ground_truth_skill_id": "066ead3b",
+      "ground_truth_skill_name": "Publish peer review (14446)"
+    },
+    {
+      "query": "We need to translate technical blog post adhering to style guidelines. variant 29439 for our project",
+      "ground_truth_skill_id": "8ab64964",
+      "ground_truth_skill_name": "Translate technical blog post (29439)"
+    },
+    {
+      "query": "How would you validate customer churn data for regulatory compliance. variant 18231?",
+      "ground_truth_skill_id": "e0692239",
+      "ground_truth_skill_name": "Validate customer churn data (18231)"
+    },
+    {
+      "query": "Task: report marketing funnel metrics with real-time updates",
+      "ground_truth_skill_id": "8d0e040b",
+      "ground_truth_skill_name": "Report marketing funnel metrics"
+    },
+    {
+      "query": "What's the best approach to test react component with security best practices. variant 10463?",
+      "ground_truth_skill_id": "5e94322e",
+      "ground_truth_skill_name": "Test React component (10463)"
+    },
+    {
+      "query": "Looking for help to generate ar filter with brand consistency. variant 27696",
+      "ground_truth_skill_id": "db49ee84",
+      "ground_truth_skill_name": "Generate AR filter (27696)"
+    },
+    {
+      "query": "Looking for help to backup incident response plan",
+      "ground_truth_skill_id": "dbf9685b",
+      "ground_truth_skill_name": "Backup incident response plan (22298)"
+    },
+    {
+      "query": "Can you outreach competitive analysis for enterprise clients. variant 18210?",
+      "ground_truth_skill_id": "e2573980",
+      "ground_truth_skill_name": "Outreach competitive analysis (18210)"
+    },
+    {
+      "query": "Looking for help to validate peer review with rigorous controls. variant 10189",
+      "ground_truth_skill_id": "568a8749",
+      "ground_truth_skill_name": "Validate peer review (10189)"
+    },
+    {
+      "query": "Describe how to animate video transition",
+      "ground_truth_skill_id": "bcce0c00",
+      "ground_truth_skill_name": "Animate video transition (14110)"
+    },
+    {
+      "query": "Looking for help to mix ar filter in minimalist style. variant 22059",
+      "ground_truth_skill_id": "4658f0db",
+      "ground_truth_skill_name": "Mix AR filter (22059)"
+    },
+    {
+      "query": "Looking for help to analyze risk assessment with scalability focus. variant 6698",
+      "ground_truth_skill_id": "37434551",
+      "ground_truth_skill_name": "Analyze risk assessment (6698)"
+    },
+    {
+      "query": "I need someone who can review statistical model with open science practices. variant 6078",
+      "ground_truth_skill_id": "79028466",
+      "ground_truth_skill_name": "Review statistical model (6078)"
+    },
+    {
+      "query": "Task: review press release in concise format. variant 24898",
+      "ground_truth_skill_id": "8ac8e53f",
+      "ground_truth_skill_name": "Review press release (24898)"
+    },
+    {
+      "query": "Can you monitor cost optimization report under soc2 compliance. variant 6338?",
+      "ground_truth_skill_id": "18e30ec4",
+      "ground_truth_skill_name": "Monitor cost optimization report (6338)"
+    },
+    {
+      "query": "What's the best approach to refactor rest api using test-driven development. variant 23526?",
+      "ground_truth_skill_id": "17483088",
+      "ground_truth_skill_name": "Refactor REST API (23526)"
+    },
+    {
+      "query": "Looking for help to model dataset curation",
+      "ground_truth_skill_id": "568e79d2",
+      "ground_truth_skill_name": "Model dataset curation (22541)"
+    },
+    {
+      "query": "How would you plan partnership deal with compliance requirements. variant 17335?",
+      "ground_truth_skill_id": "a2fab386",
+      "ground_truth_skill_name": "Plan partnership deal (17335)"
+    },
+    {
+      "query": "Describe how to replicate literature review with open science practices. variant 2847",
+      "ground_truth_skill_id": "ad7af155",
+      "ground_truth_skill_name": "Replicate literature review (2847)"
+    },
+    {
+      "query": "Find a way to synthesize statistical model for reproducible research. variant 30108",
+      "ground_truth_skill_id": "07a0e88f",
+      "ground_truth_skill_name": "Synthesize statistical model (30108)"
+    },
+    {
+      "query": "Task: render motion graphic",
+      "ground_truth_skill_id": "c644fa5c",
+      "ground_truth_skill_name": "Render motion graphic (8180)"
+    },
+    {
+      "query": "I need someone who can model sales dataset",
+      "ground_truth_skill_id": "e91e7bbc",
+      "ground_truth_skill_name": "Model sales dataset (24807)"
+    },
+    {
+      "query": "What's the best approach to monitor sales dataset with real-time updates. variant 5164?",
+      "ground_truth_skill_id": "01c63987",
+      "ground_truth_skill_name": "Monitor sales dataset (5164)"
+    },
+    {
+      "query": "What's the best approach to troubleshoot log aggregation pipeline under soc2 compliance. variant 19213?",
+      "ground_truth_skill_id": "03706a28",
+      "ground_truth_skill_name": "Troubleshoot log aggregation pipeline (19213)"
+    },
+    {
+      "query": "What's the best approach to polish email campaign in a professional tone. variant 23700?",
+      "ground_truth_skill_id": "4488e42f",
+      "ground_truth_skill_name": "Polish email campaign (23700)"
+    },
+    {
+      "query": "Describe how to segment marketing funnel metrics",
+      "ground_truth_skill_id": "9c09f04c",
+      "ground_truth_skill_name": "Segment marketing funnel metrics (12601)"
+    },
+    {
+      "query": "Describe how to replicate peer review",
+      "ground_truth_skill_id": "b3d9d4c3",
+      "ground_truth_skill_name": "Replicate peer review (4558)"
+    },
+    {
+      "query": "I want to learn how to budget project budget",
+      "ground_truth_skill_id": "97619107",
+      "ground_truth_skill_name": "Budget project budget (3003)"
+    },
+    {
+      "query": "Looking for help to edit technical blog post matching brand voice. variant 14935",
+      "ground_truth_skill_id": "acfb8ae9",
+      "ground_truth_skill_name": "Edit technical blog post (14935)"
+    },
+    {
+      "query": "Task: review script for a video in concise format. variant 18965",
+      "ground_truth_skill_id": "e0dec922",
+      "ground_truth_skill_name": "Review script for a video (18965)"
+    },
+    {
+      "query": "Describe how to troubleshoot kubernetes cluster under soc2 compliance. variant 5229",
+      "ground_truth_skill_id": "4e28d799",
+      "ground_truth_skill_name": "Troubleshoot Kubernetes cluster (5229)"
+    },
+    {
+      "query": "Looking for help to prototype ar filter in minimalist style. variant 15256",
+      "ground_truth_skill_id": "8650f9c9",
+      "ground_truth_skill_name": "Prototype AR filter (15256)"
+    },
+    {
+      "query": "Looking for help to rewrite business proposal matching brand voice. variant 6619",
+      "ground_truth_skill_id": "ab1c453e",
+      "ground_truth_skill_name": "Rewrite business proposal (6619)"
+    },
+    {
+      "query": "What's the best approach to design brand identity system?",
+      "ground_truth_skill_id": "5f583b2d",
+      "ground_truth_skill_name": "Design brand identity system (24911)"
+    },
+    {
+      "query": "Task: publish hypothesis test with interdisciplinary collaboration. variant 18217",
+      "ground_truth_skill_id": "94f16f5b",
+      "ground_truth_skill_name": "Publish hypothesis test (18217)"
+    },
+    {
+      "query": "Looking for help to provision incident response plan with infrastructure-as-code. variant 29714",
+      "ground_truth_skill_id": "22cf968a",
+      "ground_truth_skill_name": "Provision incident response plan (29714)"
+    },
+    {
+      "query": "Looking for help to onboard competitive analysis with stakeholder alignment. variant 23909",
+      "ground_truth_skill_id": "cd46b1b5",
+      "ground_truth_skill_name": "Onboard competitive analysis (23909)"
+    },
+    {
+      "query": "Task: clean a/b test results with anomaly detection. variant 10659",
+      "ground_truth_skill_id": "57649ec6",
+      "ground_truth_skill_name": "Clean A/B test results (10659)"
+    },
+    {
+      "query": "Task: write machine learning model for a web application. variant 24260",
+      "ground_truth_skill_id": "c73bdec5",
+      "ground_truth_skill_name": "Write machine learning model (24260)"
+    },
+    {
+      "query": "What's the best approach to pitch project budget with compliance requirements. variant 23283?",
+      "ground_truth_skill_id": "b7cfca5d",
+      "ground_truth_skill_name": "Pitch project budget (23283)"
+    },
+    {
+      "query": "Task: visualize time series forecast with interactive dashboards. variant 13730",
+      "ground_truth_skill_id": "76e28f23",
+      "ground_truth_skill_name": "Visualize time series forecast (13730)"
+    },
+    {
+      "query": "I need someone who can calibrate hypothesis test under ethical guidelines. variant 17496",
+      "ground_truth_skill_id": "101b015a",
+      "ground_truth_skill_name": "Calibrate hypothesis test (17496)"
+    },
+    {
+      "query": "I need someone who can review python function using test-driven development. variant 4679",
+      "ground_truth_skill_id": "ed67cfdc",
+      "ground_truth_skill_name": "Review Python function (4679)"
+    },
+    {
+      "query": "Describe how to scale incident response plan under soc2 compliance. variant 11215",
+      "ground_truth_skill_id": "59090d9e",
+      "ground_truth_skill_name": "Scale incident response plan (11215)"
+    },
+    {
+      "query": "Task: containerize ci/cd pipeline for a distributed system. variant 16043",
+      "ground_truth_skill_id": "6fa5ba6e",
+      "ground_truth_skill_name": "Containerize CI/CD pipeline (16043)"
+    },
+    {
+      "query": "I want to learn how to negotiate quarterly roadmap with compliance requirements. variant 10708",
+      "ground_truth_skill_id": "70a71cf0",
+      "ground_truth_skill_name": "Negotiate quarterly roadmap (10708)"
+    },
+    {
+      "query": "Describe how to secure database replication under soc2 compliance. variant 30294",
+      "ground_truth_skill_id": "e8ce1f9e",
+      "ground_truth_skill_name": "Secure database replication (30294)"
+    },
+    {
+      "query": "What's the best approach to outline creative story adhering to style guidelines. variant 24867?",
+      "ground_truth_skill_id": "921b2530",
+      "ground_truth_skill_name": "Outline creative story (24867)"
+    },
+    {
+      "query": "How would you write dockerfile?",
+      "ground_truth_skill_id": "e653adfe",
+      "ground_truth_skill_name": "Write Dockerfile (17691)"
+    },
+    {
+      "query": "We need to strategize investor presentation with data-driven rationale. variant 14392 for our project",
+      "ground_truth_skill_id": "74336225",
+      "ground_truth_skill_name": "Strategize investor presentation (14392)"
+    },
+    {
+      "query": "Can you extract a/b test results with interactive dashboards. variant 21252?",
+      "ground_truth_skill_id": "8949d97c",
+      "ground_truth_skill_name": "Extract A/B test results (21252)"
+    },
+    {
+      "query": "I want to learn how to troubleshoot cloud infrastructure",
+      "ground_truth_skill_id": "0a8d9122",
+      "ground_truth_skill_name": "Troubleshoot cloud infrastructure (3665)"
+    },
+    {
+      "query": "What's the best approach to patch kubernetes cluster for multi-region availability. variant 15010?",
+      "ground_truth_skill_id": "6de8e55c",
+      "ground_truth_skill_name": "Patch Kubernetes cluster (15010)"
+    },
+    {
+      "query": "What's the best approach to model statistical model under ethical guidelines. variant 2103?",
+      "ground_truth_skill_id": "362d9317",
+      "ground_truth_skill_name": "Model statistical model (2103)"
+    },
+    {
+      "query": "I want to learn how to secure cost optimization report under soc2 compliance. variant 20673",
+      "ground_truth_skill_id": "b303fb78",
+      "ground_truth_skill_name": "Secure cost optimization report (20673)"
+    },
+    {
+      "query": "What's the best approach to forecast sensor data stream?",
+      "ground_truth_skill_id": "ac2190ee",
+      "ground_truth_skill_name": "Forecast sensor data stream (26290)"
+    },
+    {
+      "query": "Looking for help to edit sound effect",
+      "ground_truth_skill_id": "75695566",
+      "ground_truth_skill_name": "Edit sound effect (17546)"
+    },
+    {
+      "query": "We need to strategize talent pipeline for enterprise clients. variant 4337 for our project",
+      "ground_truth_skill_id": "d0a2ed4c",
+      "ground_truth_skill_name": "Strategize talent pipeline (4337)"
+    },
+    {
+      "query": "What's the best approach to optimize machine learning model?",
+      "ground_truth_skill_id": "79c59f56",
+      "ground_truth_skill_name": "Optimize machine learning model (13826)"
+    },
+    {
+      "query": "Task: optimize ci/cd workflow with automated alerting. variant 20622",
+      "ground_truth_skill_id": "bb2de6c3",
+      "ground_truth_skill_name": "Optimize CI/CD workflow (20622)"
+    },
+    {
+      "query": "What's the best approach to edit motion graphic?",
+      "ground_truth_skill_id": "8433bebe",
+      "ground_truth_skill_name": "Edit motion graphic (13934)"
+    },
+    {
+      "query": "Describe how to troubleshoot kubernetes cluster",
+      "ground_truth_skill_id": "024b56d9",
+      "ground_truth_skill_name": "Troubleshoot Kubernetes cluster (32717)"
+    },
+    {
+      "query": "Task: clean time series forecast with real-time updates. variant 25928",
+      "ground_truth_skill_id": "d09a83d8",
+      "ground_truth_skill_name": "Clean time series forecast (25928)"
+    },
+    {
+      "query": "I want to learn how to plan talent pipeline under tight deadlines. variant 30071",
+      "ground_truth_skill_id": "56a93e88",
+      "ground_truth_skill_name": "Plan talent pipeline (30071)"
+    },
+    {
+      "query": "Describe how to review microservice",
+      "ground_truth_skill_id": "c4a81cde",
+      "ground_truth_skill_name": "Review microservice (9363)"
+    },
+    {
+      "query": "What's the best approach to proofread creative story in a professional tone. variant 17359?",
+      "ground_truth_skill_id": "253cff8c",
+      "ground_truth_skill_name": "Proofread creative story (17359)"
+    },
+    {
+      "query": "I want to learn how to rewrite user manual adhering to style guidelines. variant 9150",
+      "ground_truth_skill_id": "b97ebbbb",
+      "ground_truth_skill_name": "Rewrite user manual (9150)"
+    },
+    {
+      "query": "Looking for help to rewrite email campaign with persuasive techniques. variant 16162",
+      "ground_truth_skill_id": "162e8bd8",
+      "ground_truth_skill_name": "Rewrite email campaign (16162)"
+    },
+    {
+      "query": "I need someone who can synthesize literature review",
+      "ground_truth_skill_id": "2b2e8490",
+      "ground_truth_skill_name": "Synthesize literature review (17219)"
+    },
+    {
+      "query": "We need to model financial transactions with automated pipelines. variant 28077 for our project",
+      "ground_truth_skill_id": "841059cc",
+      "ground_truth_skill_name": "Model financial transactions (28077)"
+    },
+    {
+      "query": "How would you provision ci/cd workflow with infrastructure-as-code. variant 26175?",
+      "ground_truth_skill_id": "d6fb055e",
+      "ground_truth_skill_name": "Provision CI/CD workflow (26175)"
+    },
+    {
+      "query": "Describe how to storyboard video transition in minimalist style. variant 23723",
+      "ground_truth_skill_id": "9f6fcc23",
+      "ground_truth_skill_name": "Storyboard video transition (23723)"
+    },
+    {
+      "query": "Find a way to optimize ci/cd pipeline",
+      "ground_truth_skill_id": "16c4d04e",
+      "ground_truth_skill_name": "Optimize CI/CD pipeline (14373)"
+    },
+    {
+      "query": "We need to refactor unit test suite for cloud deployment. variant 9065 for our project",
+      "ground_truth_skill_id": "01a716d7",
+      "ground_truth_skill_name": "Refactor unit test suite (9065)"
+    },
+    {
+      "query": "Task: backup kubernetes cluster for multi-region availability. variant 33392",
+      "ground_truth_skill_id": "b03c6c6f",
+      "ground_truth_skill_name": "Backup Kubernetes cluster (33392)"
+    },
+    {
+      "query": "Can you prototype music loop with accessibility in mind. variant 32343?",
+      "ground_truth_skill_id": "61f193e3",
+      "ground_truth_skill_name": "Prototype music loop (32343)"
+    },
+    {
+      "query": "Can you validate time series forecast with automated pipelines. variant 5957?",
+      "ground_truth_skill_id": "3bbf9c95",
+      "ground_truth_skill_name": "Validate time series forecast (5957)"
+    },
+    {
+      "query": "I want to learn how to hypothesize research grant proposal for high-impact journal submission. variant 3087",
+      "ground_truth_skill_id": "6b747706",
+      "ground_truth_skill_name": "Hypothesize research grant proposal (3087)"
+    },
+    {
+      "query": "Task: visualize customer churn data",
+      "ground_truth_skill_id": "6e13eb7b",
+      "ground_truth_skill_name": "Visualize customer churn data (7185)"
+    },
+    {
+      "query": "Find a way to publish computational simulation with open science practices. variant 10016",
+      "ground_truth_skill_id": "85ed395a",
+      "ground_truth_skill_name": "Publish computational simulation (10016)"
+    },
+    {
+      "query": "How would you migrate ci/cd pipeline with type safety. variant 10484?",
+      "ground_truth_skill_id": "d7a23962",
+      "ground_truth_skill_name": "Migrate CI/CD pipeline (10484)"
+    },
+    {
+      "query": "I need someone who can model experimental protocol for reproducible research. variant 27666",
+      "ground_truth_skill_id": "47a0ca45",
+      "ground_truth_skill_name": "Model experimental protocol (27666)"
+    },
+    {
+      "query": "I want to learn how to illustrate ar filter with accessibility in mind. variant 4163",
+      "ground_truth_skill_id": "68c7b67b",
+      "ground_truth_skill_name": "Illustrate AR filter (4163)"
+    },
+    {
+      "query": "How would you onboard project budget for enterprise clients. variant 25216?",
+      "ground_truth_skill_id": "ce9ffd05",
+      "ground_truth_skill_name": "Onboard project budget (25216)"
+    },
+    {
+      "query": "Looking for help to aggregate survey responses",
+      "ground_truth_skill_id": "508271b5",
+      "ground_truth_skill_name": "Aggregate survey responses (25009)"
+    },
+    {
+      "query": "Task: hypothesize hypothesis test with interdisciplinary collaboration. variant 30674",
+      "ground_truth_skill_id": "c80f8e24",
+      "ground_truth_skill_name": "Hypothesize hypothesis test (30674)"
+    },
+    {
+      "query": "What's the best approach to compose ar filter with accessibility in mind. variant 16476?",
+      "ground_truth_skill_id": "f13bfa3c",
+      "ground_truth_skill_name": "Compose AR filter (16476)"
+    },
+    {
+      "query": "What's the best approach to outline email campaign with seo optimization. variant 752?",
+      "ground_truth_skill_id": "983012bb",
+      "ground_truth_skill_name": "Outline email campaign (752)"
+    },
+    {
+      "query": "We need to calibrate literature review under ethical guidelines. variant 7507 for our project",
+      "ground_truth_skill_id": "c09f6b85",
+      "ground_truth_skill_name": "Calibrate literature review (7507)"
+    },
+    {
+      "query": "We need to audit ci/cd workflow with infrastructure-as-code. variant 17486 for our project",
+      "ground_truth_skill_id": "ca6c7803",
+      "ground_truth_skill_name": "Audit CI/CD workflow (17486)"
+    },
+    {
+      "query": "Can you synthesize dataset curation for high-impact journal submission. variant 22293?",
+      "ground_truth_skill_id": "47052b45",
+      "ground_truth_skill_name": "Synthesize dataset curation (22293)"
+    },
+    {
+      "query": "We need to negotiate partnership deal for a startup environment. variant 7310 for our project",
+      "ground_truth_skill_id": "89a5bc87",
+      "ground_truth_skill_name": "Negotiate partnership deal (7310)"
+    },
+    {
+      "query": "I need someone who can validate survey responses with anomaly detection. variant 19234",
+      "ground_truth_skill_id": "ed16276e",
+      "ground_truth_skill_name": "Validate survey responses (19234)"
+    },
+    {
+      "query": "Task: proofread email campaign with persuasive techniques. variant 28492",
+      "ground_truth_skill_id": "a5a5968c",
+      "ground_truth_skill_name": "Proofread email campaign (28492)"
+    },
+    {
+      "query": "Looking for help to deploy rest api for a web application. variant 10365",
+      "ground_truth_skill_id": "bc7b2aef",
+      "ground_truth_skill_name": "Deploy REST API (10365)"
+    },
+    {
+      "query": "How would you outline press release matching brand voice. variant 29735?",
+      "ground_truth_skill_id": "848c7ba5",
+      "ground_truth_skill_name": "Outline press release (29735)"
+    },
+    {
+      "query": "Task: analyze competitive analysis with data-driven rationale",
+      "ground_truth_skill_id": "63722331",
+      "ground_truth_skill_name": "Analyze competitive analysis"
+    },
+    {
+      "query": "How would you simulate research grant proposal?",
+      "ground_truth_skill_id": "86c36d27",
+      "ground_truth_skill_name": "Simulate research grant proposal (17261)"
+    },
+    {
+      "query": "How would you patch incident response plan?",
+      "ground_truth_skill_id": "728aa105",
+      "ground_truth_skill_name": "Patch incident response plan (32806)"
+    },
+    {
+      "query": "Can you edit video transition with animation rigging. variant 11708?",
+      "ground_truth_skill_id": "fb49b188",
+      "ground_truth_skill_name": "Edit video transition (11708)"
+    },
+    {
+      "query": "Task: refactor machine learning model for a web application. variant 33271",
+      "ground_truth_skill_id": "36feb978",
+      "ground_truth_skill_name": "Refactor machine learning model (33271)"
+    },
+    {
+      "query": "Task: test rest api with performance constraints. variant 6973",
+      "ground_truth_skill_id": "fd7a4818",
+      "ground_truth_skill_name": "Test REST API (6973)"
+    },
+    {
+      "query": "Find a way to backup incident response plan with infrastructure-as-code. variant 19558",
+      "ground_truth_skill_id": "b2521e3c",
+      "ground_truth_skill_name": "Backup incident response plan (19558)"
+    },
+    {
+      "query": "We need to proofread technical blog post with seo optimization. variant 33270 for our project",
+      "ground_truth_skill_id": "eb3e5d80",
+      "ground_truth_skill_name": "Proofread technical blog post (33270)"
+    },
+    {
+      "query": "We need to pitch market entry strategy with scalability focus. variant 13035 for our project",
+      "ground_truth_skill_id": "b79195da",
+      "ground_truth_skill_name": "Pitch market entry strategy (13035)"
+    },
+    {
+      "query": "Task: translate technical blog post",
+      "ground_truth_skill_id": "66f00f33",
+      "ground_truth_skill_name": "Translate technical blog post (24504)"
+    },
+    {
+      "query": "Find a way to review business proposal for a general audience. variant 10587",
+      "ground_truth_skill_id": "00799737",
+      "ground_truth_skill_name": "Review business proposal (10587)"
+    },
+    {
+      "query": "I want to learn how to plan risk assessment with stakeholder alignment",
+      "ground_truth_skill_id": "efa8c6ad",
+      "ground_truth_skill_name": "Plan risk assessment"
+    },
+    {
+      "query": "What's the best approach to backup cloud infrastructure?",
+      "ground_truth_skill_id": "ebc56b1b",
+      "ground_truth_skill_name": "Backup cloud infrastructure (21243)"
+    },
+    {
+      "query": "How would you validate hypothesis test with rigorous controls. variant 32021?",
+      "ground_truth_skill_id": "ca416686",
+      "ground_truth_skill_name": "Validate hypothesis test (32021)"
+    },
+    {
+      "query": "Find a way to segment financial transactions",
+      "ground_truth_skill_id": "edb602e1",
+      "ground_truth_skill_name": "Segment financial transactions (1276)"
+    },
+    {
+      "query": "What's the best approach to negotiate market entry strategy with stakeholder alignment. variant 7331?",
+      "ground_truth_skill_id": "7b338d58",
+      "ground_truth_skill_name": "Negotiate market entry strategy (7331)"
+    },
+    {
+      "query": "I want to learn how to edit music loop",
+      "ground_truth_skill_id": "1868feea",
+      "ground_truth_skill_name": "Edit music loop (23788)"
+    },
+    {
+      "query": "We need to write sql query for our project",
+      "ground_truth_skill_id": "ef6518f5",
+      "ground_truth_skill_name": "Write SQL query (20153)"
+    },
+    {
+      "query": "Task: test python function using test-driven development. variant 15692",
+      "ground_truth_skill_id": "582d6f9d",
+      "ground_truth_skill_name": "Test Python function (15692)"
+    },
+    {
+      "query": "Looking for help to plan partnership deal with compliance requirements. variant 3796",
+      "ground_truth_skill_id": "bb77a911",
+      "ground_truth_skill_name": "Plan partnership deal (3796)"
+    },
+    {
+      "query": "I want to learn how to retain investor presentation for remote teams. variant 15785",
+      "ground_truth_skill_id": "9de4057b",
+      "ground_truth_skill_name": "Retain investor presentation (15785)"
+    },
+    {
+      "query": "Task: provision incident response plan with zero-downtime deployment. variant 5161",
+      "ground_truth_skill_id": "186ca51d",
+      "ground_truth_skill_name": "Provision incident response plan (5161)"
+    },
+    {
+      "query": "What's the best approach to mix logo concept?",
+      "ground_truth_skill_id": "47e879d8",
+      "ground_truth_skill_name": "Mix logo concept (5613)"
+    },
+    {
+      "query": "I need someone who can illustrate logo concept using generative ai tools. variant 31849",
+      "ground_truth_skill_id": "7a40bcab",
+      "ground_truth_skill_name": "Illustrate logo concept (31849)"
+    },
+    {
+      "query": "Describe how to storyboard ui mockup",
+      "ground_truth_skill_id": "99b54400",
+      "ground_truth_skill_name": "Storyboard UI mockup (4535)"
+    },
+    {
+      "query": "Describe how to optimize react component",
+      "ground_truth_skill_id": "82e5672b",
+      "ground_truth_skill_name": "Optimize React component (8241)"
+    },
+    {
+      "query": "How would you outline user manual with seo optimization. variant 8414?",
+      "ground_truth_skill_id": "65bfa92f",
+      "ground_truth_skill_name": "Outline user manual (8414)"
+    },
+    {
+      "query": "How would you automate kubernetes cluster for 99.99% uptime. variant 31148?",
+      "ground_truth_skill_id": "437389d3",
+      "ground_truth_skill_name": "Automate Kubernetes cluster (31148)"
+    },
+    {
+      "query": "Find a way to prototype logo concept for high-resolution output. variant 10821",
+      "ground_truth_skill_id": "ae3eac03",
+      "ground_truth_skill_name": "Prototype logo concept (10821)"
+    },
+    {
+      "query": "Looking for help to aggregate sales dataset for executive summary. variant 17370",
+      "ground_truth_skill_id": "e95c1061",
+      "ground_truth_skill_name": "Aggregate sales dataset (17370)"
+    },
+    {
+      "query": "How would you edit music loop using generative ai tools. variant 27730?",
+      "ground_truth_skill_id": "88c63054",
+      "ground_truth_skill_name": "Edit music loop (27730)"
+    },
+    {
+      "query": "What's the best approach to onboard talent pipeline for a startup environment. variant 13880?",
+      "ground_truth_skill_id": "b80431d2",
+      "ground_truth_skill_name": "Onboard talent pipeline (13880)"
+    },
+    {
+      "query": "What's the best approach to translate script for a video in concise format. variant 13182?",
+      "ground_truth_skill_id": "ce867e0c",
+      "ground_truth_skill_name": "Translate script for a video (13182)"
+    },
+    {
+      "query": "I want to learn how to measure hypothesis test with open science practices. variant 20428",
+      "ground_truth_skill_id": "c6a6bc35",
+      "ground_truth_skill_name": "Measure hypothesis test (20428)"
+    },
+    {
+      "query": "What's the best approach to hypothesize hypothesis test with open science practices. variant 26148?",
+      "ground_truth_skill_id": "499f4417",
+      "ground_truth_skill_name": "Hypothesize hypothesis test (26148)"
+    },
+    {
+      "query": "What's the best approach to publish research grant proposal with rigorous controls. variant 24472?",
+      "ground_truth_skill_id": "4a86f96e",
+      "ground_truth_skill_name": "Publish research grant proposal (24472)"
+    },
+    {
+      "query": "Find a way to simulate peer review",
+      "ground_truth_skill_id": "a1e405f9",
+      "ground_truth_skill_name": "Simulate peer review (28711)"
+    },
+    {
+      "query": "Can you strategize talent pipeline with data-driven rationale. variant 33919?",
+      "ground_truth_skill_id": "4c2c0e09",
+      "ground_truth_skill_name": "Strategize talent pipeline (33919)"
+    },
+    {
+      "query": "I want to learn how to hypothesize computational simulation with rigorous controls. variant 29588",
+      "ground_truth_skill_id": "e5fb06cb",
+      "ground_truth_skill_name": "Hypothesize computational simulation (29588)"
+    },
+    {
+      "query": "I want to learn how to forecast survey responses",
+      "ground_truth_skill_id": "87da9325",
+      "ground_truth_skill_name": "Forecast survey responses (7930)"
+    },
+    {
+      "query": "Looking for help to migrate python function",
+      "ground_truth_skill_id": "8296917b",
+      "ground_truth_skill_name": "Migrate Python function (16246)"
+    },
+    {
+      "query": "Find a way to simulate research grant proposal with open science practices. variant 14725",
+      "ground_truth_skill_id": "d81766c0",
+      "ground_truth_skill_name": "Simulate research grant proposal (14725)"
+    },
+    {
+      "query": "How would you simulate research grant proposal with interdisciplinary collaboration. variant 4196?",
+      "ground_truth_skill_id": "d0b68aaf",
+      "ground_truth_skill_name": "Simulate research grant proposal (4196)"
+    },
+    {
+      "query": "Find a way to publish literature review with interdisciplinary collaboration. variant 22156",
+      "ground_truth_skill_id": "5609ec21",
+      "ground_truth_skill_name": "Publish literature review (22156)"
+    },
+    {
+      "query": "How would you outline business proposal in concise format. variant 1378?",
+      "ground_truth_skill_id": "9dae2dcf",
+      "ground_truth_skill_name": "Outline business proposal (1378)"
+    },
+    {
+      "query": "Can you validate time series forecast with real-time updates. variant 15080?",
+      "ground_truth_skill_id": "f48b35c3",
+      "ground_truth_skill_name": "Validate time series forecast (15080)"
+    },
+    {
+      "query": "We need to segment a/b test results with real-time updates. variant 14432 for our project",
+      "ground_truth_skill_id": "3d6a5ed5",
+      "ground_truth_skill_name": "Segment A/B test results (14432)"
+    },
+    {
+      "query": "Describe how to strategize quarterly roadmap with scalability focus. variant 471",
+      "ground_truth_skill_id": "c9767754",
+      "ground_truth_skill_name": "Strategize quarterly roadmap (471)"
+    },
+    {
+      "query": "How would you analyze talent pipeline?",
+      "ground_truth_skill_id": "5cef79f8",
+      "ground_truth_skill_name": "Analyze talent pipeline (4652)"
+    },
+    {
+      "query": "I want to learn how to summarize press release in a professional tone. variant 3858",
+      "ground_truth_skill_id": "32d2691e",
+      "ground_truth_skill_name": "Summarize press release (3858)"
+    },
+    {
+      "query": "We need to audit cost optimization report for our project",
+      "ground_truth_skill_id": "8775dda7",
+      "ground_truth_skill_name": "Audit cost optimization report (15003)"
+    },
+    {
+      "query": "Describe how to forecast a/b test results with real-time updates. variant 4417",
+      "ground_truth_skill_id": "cd80fb49",
+      "ground_truth_skill_name": "Forecast A/B test results (4417)"
+    },
+    {
+      "query": "Task: outline email campaign for a general audience. variant 2058",
+      "ground_truth_skill_id": "f717ab70",
+      "ground_truth_skill_name": "Outline email campaign (2058)"
+    },
+    {
+      "query": "Can you rewrite email campaign in concise format. variant 21654?",
+      "ground_truth_skill_id": "5ffd6941",
+      "ground_truth_skill_name": "Rewrite email campaign (21654)"
+    },
+    {
+      "query": "We need to edit technical blog post for our project",
+      "ground_truth_skill_id": "09a67290",
+      "ground_truth_skill_name": "Edit technical blog post (4643)"
+    },
+    {
+      "query": "Find a way to clean a/b test results with real-time updates. variant 33695",
+      "ground_truth_skill_id": "5386be8b",
+      "ground_truth_skill_name": "Clean A/B test results (33695)"
+    },
+    {
+      "query": "Can you hypothesize literature review?",
+      "ground_truth_skill_id": "6ad58cc6",
+      "ground_truth_skill_name": "Hypothesize literature review (15597)"
+    },
+    {
+      "query": "Describe how to proofread creative story with seo optimization. variant 18250",
+      "ground_truth_skill_id": "cb503c99",
+      "ground_truth_skill_name": "Proofread creative story (18250)"
+    },
+    {
+      "query": "Describe how to generate motion graphic in minimalist style. variant 31812",
+      "ground_truth_skill_id": "857c4fbf",
+      "ground_truth_skill_name": "Generate motion graphic (31812)"
+    },
+    {
+      "query": "We need to report time series forecast using statistical methods. variant 14040 for our project",
+      "ground_truth_skill_id": "5fcac53a",
+      "ground_truth_skill_name": "Report time series forecast (14040)"
+    },
+    {
+      "query": "I want to learn how to optimize python function for a web application. variant 8671",
+      "ground_truth_skill_id": "3b695b14",
+      "ground_truth_skill_name": "Optimize Python function (8671)"
+    },
+    {
+      "query": "Describe how to replicate research grant proposal under ethical guidelines. variant 30976",
+      "ground_truth_skill_id": "1fb52a2c",
+      "ground_truth_skill_name": "Replicate research grant proposal (30976)"
+    },
+    {
+      "query": "We need to proofread user manual matching brand voice. variant 15925 for our project",
+      "ground_truth_skill_id": "afea4cd7",
+      "ground_truth_skill_name": "Proofread user manual (15925)"
+    },
+    {
+      "query": "Looking for help to compose brand identity system in minimalist style. variant 30996",
+      "ground_truth_skill_id": "b3b2281c",
+      "ground_truth_skill_name": "Compose brand identity system (30996)"
+    },
+    {
+      "query": "Find a way to polish business proposal with seo optimization. variant 26677",
+      "ground_truth_skill_id": "a77fa656",
+      "ground_truth_skill_name": "Polish business proposal (26677)"
+    },
+    {
+      "query": "We need to render ar filter for our project",
+      "ground_truth_skill_id": "8be32877",
+      "ground_truth_skill_name": "Render AR filter (12478)"
+    },
+    {
+      "query": "Can you translate social media thread in concise format. variant 6181?",
+      "ground_truth_skill_id": "22c41c50",
+      "ground_truth_skill_name": "Translate social media thread (6181)"
+    },
+    {
+      "query": "I need someone who can monitor network firewall rule with zero-downtime deployment. variant 6352",
+      "ground_truth_skill_id": "de8b5bb8",
+      "ground_truth_skill_name": "Monitor network firewall rule (6352)"
+    },
+    {
+      "query": "We need to review email campaign for our project",
+      "ground_truth_skill_id": "b60ea25b",
+      "ground_truth_skill_name": "Review email campaign (28249)"
+    },
+    {
+      "query": "Find a way to integrate python function following clean code principles. variant 23219",
+      "ground_truth_skill_id": "2b7b4810",
+      "ground_truth_skill_name": "Integrate Python function (23219)"
+    },
+    {
+      "query": "Describe how to replicate hypothesis test under ethical guidelines. variant 27759",
+      "ground_truth_skill_id": "0ea9b197",
+      "ground_truth_skill_name": "Replicate hypothesis test (27759)"
+    },
+    {
+      "query": "We need to outreach investor presentation with data-driven rationale. variant 26941 for our project",
+      "ground_truth_skill_id": "80c70a70",
+      "ground_truth_skill_name": "Outreach investor presentation (26941)"
+    },
+    {
+      "query": "I want to learn how to edit sound effect",
+      "ground_truth_skill_id": "ac106b19",
+      "ground_truth_skill_name": "Edit sound effect (30606)"
+    },
+    {
+      "query": "Looking for help to review machine learning model",
+      "ground_truth_skill_id": "a643c47d",
+      "ground_truth_skill_name": "Review machine learning model (3550)"
+    },
+    {
+      "query": "Find a way to scale log aggregation pipeline under soc2 compliance. variant 6449",
+      "ground_truth_skill_id": "649b8c7e",
+      "ground_truth_skill_name": "Scale log aggregation pipeline (6449)"
+    },
+    {
+      "query": "Can you report marketing funnel metrics?",
+      "ground_truth_skill_id": "9d41ad0d",
+      "ground_truth_skill_name": "Report marketing funnel metrics (3972)"
+    },
+    {
+      "query": "Looking for help to hire partnership deal with data-driven rationale. variant 26386",
+      "ground_truth_skill_id": "f06dcb7c",
+      "ground_truth_skill_name": "Hire partnership deal (26386)"
+    },
+    {
+      "query": "How would you containerize unit test suite?",
+      "ground_truth_skill_id": "083f4910",
+      "ground_truth_skill_name": "Containerize unit test suite (22236)"
+    },
+    {
+      "query": "What's the best approach to monitor customer churn data via clustering algorithms. variant 7161?",
+      "ground_truth_skill_id": "a8d9fbde",
+      "ground_truth_skill_name": "Monitor customer churn data (7161)"
+    },
+    {
+      "query": "Describe how to edit social media thread adhering to style guidelines. variant 16295",
+      "ground_truth_skill_id": "f816fb47",
+      "ground_truth_skill_name": "Edit social media thread (16295)"
+    },
+    {
+      "query": "Can you edit video transition for high-resolution output. variant 12556?",
+      "ground_truth_skill_id": "640eb01e",
+      "ground_truth_skill_name": "Edit video transition (12556)"
+    },
+    {
+      "query": "Task: write microservice",
+      "ground_truth_skill_id": "d2849ba1",
+      "ground_truth_skill_name": "Write microservice (12465)"
+    },
+    {
+      "query": "Find a way to debug ci/cd pipeline following clean code principles. variant 29400",
+      "ground_truth_skill_id": "d91f742e",
+      "ground_truth_skill_name": "Debug CI/CD pipeline (29400)"
+    },
+    {
+      "query": "Task: proofread business proposal with persuasive techniques. variant 9186",
+      "ground_truth_skill_id": "59cb9d5d",
+      "ground_truth_skill_name": "Proofread business proposal (9186)"
+    },
+    {
+      "query": "Describe how to onboard risk assessment with data-driven rationale. variant 27648",
+      "ground_truth_skill_id": "a91561da",
+      "ground_truth_skill_name": "Onboard risk assessment (27648)"
+    },
+    {
+      "query": "I need someone who can monitor cost optimization report for multi-region availability. variant 12025",
+      "ground_truth_skill_id": "f15a317d",
+      "ground_truth_skill_name": "Monitor cost optimization report (12025)"
+    },
+    {
+      "query": "Can you draft academic abstract matching brand voice. variant 18254?",
+      "ground_truth_skill_id": "3c171d13",
+      "ground_truth_skill_name": "Draft academic abstract (18254)"
+    },
+    {
+      "query": "What's the best approach to retain market entry strategy with stakeholder alignment. variant 30318?",
+      "ground_truth_skill_id": "4513b59b",
+      "ground_truth_skill_name": "Retain market entry strategy (30318)"
+    },
+    {
+      "query": "Find a way to translate press release",
+      "ground_truth_skill_id": "7068a81c",
+      "ground_truth_skill_name": "Translate press release (16371)"
+    },
+    {
+      "query": "What's the best approach to replicate dataset curation?",
+      "ground_truth_skill_id": "f7d3b7f2",
+      "ground_truth_skill_name": "Replicate dataset curation (4940)"
+    },
+    {
+      "query": "Can you pitch market entry strategy with scalability focus. variant 29041?",
+      "ground_truth_skill_id": "d04781a1",
+      "ground_truth_skill_name": "Pitch market entry strategy (29041)"
+    },
+    {
+      "query": "Can you proofread product description in a professional tone. variant 6416?",
+      "ground_truth_skill_id": "ae92cc55",
+      "ground_truth_skill_name": "Proofread product description (6416)"
+    },
+    {
+      "query": "Can you clean survey responses?",
+      "ground_truth_skill_id": "76835bf4",
+      "ground_truth_skill_name": "Clean survey responses (3315)"
+    },
+    {
+      "query": "Task: storyboard ui mockup in minimalist style",
+      "ground_truth_skill_id": "6c2513b6",
+      "ground_truth_skill_name": "Storyboard UI mockup"
+    },
+    {
+      "query": "Describe how to budget customer success plan with stakeholder alignment. variant 6112",
+      "ground_truth_skill_id": "bff69fbd",
+      "ground_truth_skill_name": "Budget customer success plan (6112)"
+    },
+    {
+      "query": "How would you animate motion graphic for mobile-first experience. variant 15491?",
+      "ground_truth_skill_id": "619f7256",
+      "ground_truth_skill_name": "Animate motion graphic (15491)"
+    },
+    {
+      "query": "We need to containerize rest api with security best practices. variant 10899 for our project",
+      "ground_truth_skill_id": "4bfc46ac",
+      "ground_truth_skill_name": "Containerize REST API (10899)"
+    },
+    {
+      "query": "I want to learn how to hypothesize research grant proposal under ethical guidelines. variant 26634",
+      "ground_truth_skill_id": "29efeed7",
+      "ground_truth_skill_name": "Hypothesize research grant proposal (26634)"
+    },
+    {
+      "query": "I want to learn how to edit email campaign with seo optimization. variant 31826",
+      "ground_truth_skill_id": "e079064f",
+      "ground_truth_skill_name": "Edit email campaign (31826)"
+    },
+    {
+      "query": "I need someone who can calibrate computational simulation with open science practices. variant 31546",
+      "ground_truth_skill_id": "171f2cdd",
+      "ground_truth_skill_name": "Calibrate computational simulation (31546)"
+    },
+    {
+      "query": "What's the best approach to generate ui mockup?",
+      "ground_truth_skill_id": "68cc69e7",
+      "ground_truth_skill_name": "Generate UI mockup (14008)"
+    },
+    {
+      "query": "Task: deploy python function with type safety. variant 26282",
+      "ground_truth_skill_id": "b569270d",
+      "ground_truth_skill_name": "Deploy Python function (26282)"
+    },
+    {
+      "query": "I want to learn how to measure hypothesis test",
+      "ground_truth_skill_id": "34348653",
+      "ground_truth_skill_name": "Measure hypothesis test (3842)"
+    },
+    {
+      "query": "How would you aggregate financial transactions with interactive dashboards. variant 10789?",
+      "ground_truth_skill_id": "0efc2e90",
+      "ground_truth_skill_name": "Aggregate financial transactions (10789)"
+    },
+    {
+      "query": "Describe how to troubleshoot cloud infrastructure",
+      "ground_truth_skill_id": "1c15f544",
+      "ground_truth_skill_name": "Troubleshoot cloud infrastructure (24836)"
+    },
+    {
+      "query": "We need to animate sound effect for our project",
+      "ground_truth_skill_id": "fe492272",
+      "ground_truth_skill_name": "Animate sound effect"
+    },
+    {
+      "query": "Describe how to mix ar filter",
+      "ground_truth_skill_id": "cac4a03a",
+      "ground_truth_skill_name": "Mix AR filter (25586)"
+    },
+    {
+      "query": "I want to learn how to automate network firewall rule with zero-downtime deployment. variant 17380",
+      "ground_truth_skill_id": "fa12a87f",
+      "ground_truth_skill_name": "Automate network firewall rule (17380)"
+    },
+    {
+      "query": "Looking for help to rewrite technical blog post with seo optimization. variant 29819",
+      "ground_truth_skill_id": "fb47b773",
+      "ground_truth_skill_name": "Rewrite technical blog post (29819)"
+    },
+    {
+      "query": "What's the best approach to backup cost optimization report with zero-downtime deployment. variant 18694?",
+      "ground_truth_skill_id": "7718aa70",
+      "ground_truth_skill_name": "Backup cost optimization report (18694)"
+    },
+    {
+      "query": "We need to translate creative story with seo optimization. variant 27722 for our project",
+      "ground_truth_skill_id": "29791392",
+      "ground_truth_skill_name": "Translate creative story (27722)"
+    },
+    {
+      "query": "How would you refactor python function with performance constraints. variant 31894?",
+      "ground_truth_skill_id": "509934a4",
+      "ground_truth_skill_name": "Refactor Python function (31894)"
+    },
+    {
+      "query": "Can you optimize ci/cd workflow for multi-region availability. variant 10144?",
+      "ground_truth_skill_id": "86bd838b",
+      "ground_truth_skill_name": "Optimize CI/CD workflow (10144)"
+    },
+    {
+      "query": "Find a way to scale database replication for 99.99% uptime. variant 12445",
+      "ground_truth_skill_id": "80e87bac",
+      "ground_truth_skill_name": "Scale database replication (12445)"
+    },
+    {
+      "query": "I want to learn how to backup cloud infrastructure",
+      "ground_truth_skill_id": "200e949d",
+      "ground_truth_skill_name": "Backup cloud infrastructure (19445)"
+    },
+    {
+      "query": "Looking for help to replicate computational simulation with rigorous controls. variant 14267",
+      "ground_truth_skill_id": "4d6464d5",
+      "ground_truth_skill_name": "Replicate computational simulation (14267)"
+    },
+    {
+      "query": "We need to optimize cost optimization report for multi-region availability. variant 3832 for our project",
+      "ground_truth_skill_id": "e3e8826f",
+      "ground_truth_skill_name": "Optimize cost optimization report (3832)"
+    },
+    {
+      "query": "Find a way to model peer review with interdisciplinary collaboration. variant 3994",
+      "ground_truth_skill_id": "31648b72",
+      "ground_truth_skill_name": "Model peer review (3994)"
+    },
+    {
+      "query": "Can you measure research grant proposal?",
+      "ground_truth_skill_id": "aea4a75f",
+      "ground_truth_skill_name": "Measure research grant proposal (20552)"
+    },
+    {
+      "query": "What's the best approach to illustrate 3d character model?",
+      "ground_truth_skill_id": "7ed5047c",
+      "ground_truth_skill_name": "Illustrate 3D character model (3746)"
+    },
+    {
+      "query": "What's the best approach to simulate dataset curation for reproducible research. variant 3286?",
+      "ground_truth_skill_id": "629cf92c",
+      "ground_truth_skill_name": "Simulate dataset curation (3286)"
+    },
+    {
+      "query": "Looking for help to provision network firewall rule with infrastructure-as-code. variant 31246",
+      "ground_truth_skill_id": "865088e8",
+      "ground_truth_skill_name": "Provision network firewall rule (31246)"
+    },
+    {
+      "query": "I want to learn how to publish dataset curation for high-impact journal submission. variant 32954",
+      "ground_truth_skill_id": "a93e6b5d",
+      "ground_truth_skill_name": "Publish dataset curation (32954)"
+    },
+    {
+      "query": "Find a way to audit log aggregation pipeline for 99.99% uptime. variant 10317",
+      "ground_truth_skill_id": "0ee7aa35",
+      "ground_truth_skill_name": "Audit log aggregation pipeline (10317)"
+    },
+    {
+      "query": "What's the best approach to scale log aggregation pipeline with automated alerting. variant 3727?",
+      "ground_truth_skill_id": "95f88a26",
+      "ground_truth_skill_name": "Scale log aggregation pipeline (3727)"
+    },
+    {
+      "query": "I want to learn how to negotiate project budget with data-driven rationale. variant 33281",
+      "ground_truth_skill_id": "60485883",
+      "ground_truth_skill_name": "Negotiate project budget (33281)"
+    },
+    {
+      "query": "How would you forecast customer churn data using statistical methods. variant 5250?",
+      "ground_truth_skill_id": "c3d2a4b5",
+      "ground_truth_skill_name": "Forecast customer churn data (5250)"
+    },
+    {
+      "query": "Describe how to translate email campaign",
+      "ground_truth_skill_id": "c38a34a6",
+      "ground_truth_skill_name": "Translate email campaign (12178)"
+    },
+    {
+      "query": "Can you measure peer review with interdisciplinary collaboration. variant 4490?",
+      "ground_truth_skill_id": "ea1a2cb3",
+      "ground_truth_skill_name": "Measure peer review (4490)"
+    },
+    {
+      "query": "I want to learn how to prototype music loop with accessibility in mind. variant 4453",
+      "ground_truth_skill_id": "f55c5ec8",
+      "ground_truth_skill_name": "Prototype music loop (4453)"
+    },
+    {
+      "query": "We need to provision database replication for 99.99% uptime. variant 15414 for our project",
+      "ground_truth_skill_id": "756f4b4f",
+      "ground_truth_skill_name": "Provision database replication (15414)"
+    },
+    {
+      "query": "Find a way to report a/b test results",
+      "ground_truth_skill_id": "35abc3df",
+      "ground_truth_skill_name": "Report A/B test results (26461)"
+    },
+    {
+      "query": "Describe how to clean marketing funnel metrics via clustering algorithms. variant 7856",
+      "ground_truth_skill_id": "f953c812",
+      "ground_truth_skill_name": "Clean marketing funnel metrics (7856)"
+    },
+    {
+      "query": "I want to learn how to clean survey responses with interactive dashboards. variant 16135",
+      "ground_truth_skill_id": "6257af73",
+      "ground_truth_skill_name": "Clean survey responses (16135)"
+    },
+    {
+      "query": "What's the best approach to render music loop?",
+      "ground_truth_skill_id": "49845dcf",
+      "ground_truth_skill_name": "Render music loop (2604)"
+    },
+    {
+      "query": "How would you report financial transactions?",
+      "ground_truth_skill_id": "9b887b5b",
+      "ground_truth_skill_name": "Report financial transactions (5372)"
+    },
+    {
+      "query": "Task: hypothesize literature review with open science practices. variant 27474",
+      "ground_truth_skill_id": "3eea8df1",
+      "ground_truth_skill_name": "Hypothesize literature review (27474)"
+    },
+    {
+      "query": "Can you patch kubernetes cluster under soc2 compliance. variant 20733?",
+      "ground_truth_skill_id": "40ac4486",
+      "ground_truth_skill_name": "Patch Kubernetes cluster (20733)"
+    },
+    {
+      "query": "I want to learn how to visualize time series forecast for regulatory compliance. variant 17089",
+      "ground_truth_skill_id": "d3e8821f",
+      "ground_truth_skill_name": "Visualize time series forecast (17089)"
+    },
+    {
+      "query": "Task: strategize talent pipeline",
+      "ground_truth_skill_id": "d1c1b90f",
+      "ground_truth_skill_name": "Strategize talent pipeline (13386)"
+    },
+    {
+      "query": "Can you validate research grant proposal?",
+      "ground_truth_skill_id": "37ec0afd",
+      "ground_truth_skill_name": "Validate research grant proposal (20590)"
+    },
+    {
+      "query": "We need to compose brand identity system with animation rigging. variant 15642 for our project",
+      "ground_truth_skill_id": "833c5570",
+      "ground_truth_skill_name": "Compose brand identity system (15642)"
+    },
+    {
+      "query": "How would you outline press release with persuasive techniques. variant 17407?",
+      "ground_truth_skill_id": "fa088728",
+      "ground_truth_skill_name": "Outline press release (17407)"
+    },
+    {
+      "query": "I want to learn how to visualize time series forecast via clustering algorithms. variant 25938",
+      "ground_truth_skill_id": "8aaf99eb",
+      "ground_truth_skill_name": "Visualize time series forecast (25938)"
+    },
+    {
+      "query": "We need to validate customer churn data for our project",
+      "ground_truth_skill_id": "c4c8d5cc",
+      "ground_truth_skill_name": "Validate customer churn data (8577)"
+    },
+    {
+      "query": "Can you outreach risk assessment under tight deadlines. variant 19660?",
+      "ground_truth_skill_id": "9156fba8",
+      "ground_truth_skill_name": "Outreach risk assessment (19660)"
+    },
+    {
+      "query": "What's the best approach to extract customer churn data via clustering algorithms. variant 29964?",
+      "ground_truth_skill_id": "c3fbcb2b",
+      "ground_truth_skill_name": "Extract customer churn data (29964)"
+    },
+    {
+      "query": "Can you aggregate sensor data stream with automated pipelines. variant 20720?",
+      "ground_truth_skill_id": "daf94639",
+      "ground_truth_skill_name": "Aggregate sensor data stream (20720)"
+    },
+    {
+      "query": "Describe how to simulate literature review for reproducible research. variant 4754",
+      "ground_truth_skill_id": "36736460",
+      "ground_truth_skill_name": "Simulate literature review (4754)"
+    },
+    {
+      "query": "I need someone who can polish user manual matching brand voice",
+      "ground_truth_skill_id": "d77b398e",
+      "ground_truth_skill_name": "Polish user manual"
+    },
+    {
+      "query": "How would you mix 3d character model?",
+      "ground_truth_skill_id": "d05cec34",
+      "ground_truth_skill_name": "Mix 3D character model (30034)"
+    },
+    {
+      "query": "What's the best approach to aggregate sensor data stream?",
+      "ground_truth_skill_id": "57041eb7",
+      "ground_truth_skill_name": "Aggregate sensor data stream (6552)"
+    },
+    {
+      "query": "Can you storyboard brand identity system?",
+      "ground_truth_skill_id": "ab85ef53",
+      "ground_truth_skill_name": "Storyboard brand identity system (4801)"
+    },
+    {
+      "query": "How would you animate 3d character model with brand consistency. variant 13969?",
+      "ground_truth_skill_id": "6417c43e",
+      "ground_truth_skill_name": "Animate 3D character model (13969)"
+    },
+    {
+      "query": "Find a way to write python function with type safety. variant 33153",
+      "ground_truth_skill_id": "56aef53b",
+      "ground_truth_skill_name": "Write Python function (33153)"
+    },
+    {
+      "query": "Task: illustrate ar filter with brand consistency. variant 8680",
+      "ground_truth_skill_id": "0c38aa84",
+      "ground_truth_skill_name": "Illustrate AR filter (8680)"
+    },
+    {
+      "query": "What's the best approach to animate video transition?",
+      "ground_truth_skill_id": "b3b93b46",
+      "ground_truth_skill_name": "Animate video transition (22872)"
+    },
+    {
+      "query": "Task: test react component for cloud deployment. variant 4508",
+      "ground_truth_skill_id": "95b22602",
+      "ground_truth_skill_name": "Test React component (4508)"
+    },
+    {
+      "query": "What's the best approach to deploy dockerfile using test-driven development. variant 16009?",
+      "ground_truth_skill_id": "adc8f186",
+      "ground_truth_skill_name": "Deploy Dockerfile (16009)"
+    },
+    {
+      "query": "How would you patch ci/cd workflow?",
+      "ground_truth_skill_id": "38c8bd11",
+      "ground_truth_skill_name": "Patch CI/CD workflow (24217)"
+    },
+    {
+      "query": "Can you replicate statistical model under ethical guidelines. variant 18676?",
+      "ground_truth_skill_id": "1ea4f823",
+      "ground_truth_skill_name": "Replicate statistical model (18676)"
+    },
+    {
+      "query": "Task: model marketing funnel metrics with automated pipelines. variant 10338",
+      "ground_truth_skill_id": "9faddc13",
+      "ground_truth_skill_name": "Model marketing funnel metrics (10338)"
+    },
+    {
+      "query": "How would you containerize sql query with performance constraints. variant 28716?",
+      "ground_truth_skill_id": "dd3c440c",
+      "ground_truth_skill_name": "Containerize SQL query (28716)"
+    },
+    {
+      "query": "Looking for help to scale cloud infrastructure with zero-downtime deployment. variant 19825",
+      "ground_truth_skill_id": "7f37c7fb",
+      "ground_truth_skill_name": "Scale cloud infrastructure (19825)"
+    },
+    {
+      "query": "Can you render ui mockup?",
+      "ground_truth_skill_id": "51be3d77",
+      "ground_truth_skill_name": "Render UI mockup"
+    },
+    {
+      "query": "I want to learn how to edit email campaign in concise format. variant 19620",
+      "ground_truth_skill_id": "99838187",
+      "ground_truth_skill_name": "Edit email campaign (19620)"
+    },
+    {
+      "query": "We need to refactor graphql schema with type safety. variant 6788 for our project",
+      "ground_truth_skill_id": "e081c792",
+      "ground_truth_skill_name": "Refactor GraphQL schema (6788)"
+    },
+    {
+      "query": "We need to optimize unit test suite for cloud deployment. variant 8800 for our project",
+      "ground_truth_skill_id": "71394b6e",
+      "ground_truth_skill_name": "Optimize unit test suite (8800)"
+    },
+    {
+      "query": "Find a way to compose ui mockup",
+      "ground_truth_skill_id": "967b4f0c",
+      "ground_truth_skill_name": "Compose UI mockup (17332)"
+    },
+    {
+      "query": "I want to learn how to optimize python function with type safety. variant 7564",
+      "ground_truth_skill_id": "4556e4ea",
+      "ground_truth_skill_name": "Optimize Python function (7564)"
+    },
+    {
+      "query": "We need to patch cloud infrastructure for multi-region availability. variant 7014 for our project",
+      "ground_truth_skill_id": "484c2a60",
+      "ground_truth_skill_name": "Patch cloud infrastructure (7014)"
+    },
+    {
+      "query": "I want to learn how to edit technical blog post in concise format. variant 10187",
+      "ground_truth_skill_id": "25aae175",
+      "ground_truth_skill_name": "Edit technical blog post (10187)"
+    },
+    {
+      "query": "Looking for help to onboard competitive analysis",
+      "ground_truth_skill_id": "75335a00",
+      "ground_truth_skill_name": "Onboard competitive analysis (17848)"
+    },
+    {
+      "query": "Find a way to aggregate customer churn data",
+      "ground_truth_skill_id": "007cac83",
+      "ground_truth_skill_name": "Aggregate customer churn data (18465)"
+    },
+    {
+      "query": "How would you patch database replication?",
+      "ground_truth_skill_id": "8653f1c9",
+      "ground_truth_skill_name": "Patch database replication (13803)"
+    },
+    {
+      "query": "How would you mix digital painting?",
+      "ground_truth_skill_id": "f719d4ff",
+      "ground_truth_skill_name": "Mix digital painting (22471)"
+    },
+    {
+      "query": "Describe how to review graphql schema",
+      "ground_truth_skill_id": "2e5fb1c0",
+      "ground_truth_skill_name": "Review GraphQL schema (13342)"
+    },
+    {
+      "query": "Describe how to polish social media thread matching brand voice. variant 17300",
+      "ground_truth_skill_id": "4726b20a",
+      "ground_truth_skill_name": "Polish social media thread (17300)"
+    },
+    {
+      "query": "Describe how to model experimental protocol with interdisciplinary collaboration. variant 33122",
+      "ground_truth_skill_id": "e6bc9c26",
+      "ground_truth_skill_name": "Model experimental protocol (33122)"
+    },
+    {
+      "query": "Describe how to write ci/cd pipeline following clean code principles. variant 32016",
+      "ground_truth_skill_id": "7e17f514",
+      "ground_truth_skill_name": "Write CI/CD pipeline (32016)"
+    },
+    {
+      "query": "Task: localize script for a video in a professional tone. variant 16457",
+      "ground_truth_skill_id": "decd5f30",
+      "ground_truth_skill_name": "Localize script for a video (16457)"
+    },
+    {
+      "query": "We need to strategize customer success plan for a startup environment. variant 3329 for our project",
+      "ground_truth_skill_id": "31e58cf8",
+      "ground_truth_skill_name": "Strategize customer success plan (3329)"
+    },
+    {
+      "query": "What's the best approach to negotiate client proposal?",
+      "ground_truth_skill_id": "14227bc5",
+      "ground_truth_skill_name": "Negotiate client proposal (6048)"
+    },
+    {
+      "query": "How would you optimize ci/cd pipeline with security best practices. variant 18132?",
+      "ground_truth_skill_id": "c33300b2",
+      "ground_truth_skill_name": "Optimize CI/CD pipeline (18132)"
+    },
+    {
+      "query": "Can you animate sound effect using generative ai tools. variant 2889?",
+      "ground_truth_skill_id": "c2d197d5",
+      "ground_truth_skill_name": "Animate sound effect (2889)"
+    },
+    {
+      "query": "I want to learn how to localize script for a video for a general audience",
+      "ground_truth_skill_id": "3116168c",
+      "ground_truth_skill_name": "Localize script for a video"
+    },
+    {
+      "query": "What's the best approach to synthesize computational simulation?",
+      "ground_truth_skill_id": "5dae0c45",
+      "ground_truth_skill_name": "Synthesize computational simulation (21859)"
+    },
+    {
+      "query": "We need to monitor cloud infrastructure for our project",
+      "ground_truth_skill_id": "8ce87966",
+      "ground_truth_skill_name": "Monitor cloud infrastructure (8573)"
+    },
+    {
+      "query": "How would you provision cost optimization report with infrastructure-as-code. variant 17167?",
+      "ground_truth_skill_id": "c6580543",
+      "ground_truth_skill_name": "Provision cost optimization report (17167)"
+    },
+    {
+      "query": "Looking for help to validate customer churn data using statistical methods. variant 10589",
+      "ground_truth_skill_id": "77f48a7a",
+      "ground_truth_skill_name": "Validate customer churn data (10589)"
+    },
+    {
+      "query": "What's the best approach to provision cost optimization report under soc2 compliance. variant 28956?",
+      "ground_truth_skill_id": "26c5883d",
+      "ground_truth_skill_name": "Provision cost optimization report (28956)"
+    },
+    {
+      "query": "We need to write microservice with type safety. variant 28028 for our project",
+      "ground_truth_skill_id": "0b040a26",
+      "ground_truth_skill_name": "Write microservice (28028)"
+    },
+    {
+      "query": "Can you audit database replication for multi-region availability?",
+      "ground_truth_skill_id": "1dd43e75",
+      "ground_truth_skill_name": "Audit database replication"
+    },
+    {
+      "query": "What's the best approach to render music loop in minimalist style. variant 4931?",
+      "ground_truth_skill_id": "bb64e946",
+      "ground_truth_skill_name": "Render music loop (4931)"
+    },
+    {
+      "query": "How would you polish press release matching brand voice. variant 9768?",
+      "ground_truth_skill_id": "9415ee66",
+      "ground_truth_skill_name": "Polish press release (9768)"
+    },
+    {
+      "query": "Can you budget risk assessment for remote teams. variant 2361?",
+      "ground_truth_skill_id": "8e3dedb5",
+      "ground_truth_skill_name": "Budget risk assessment (2361)"
+    },
+    {
+      "query": "Can you draft technical blog post?",
+      "ground_truth_skill_id": "f2589fb5",
+      "ground_truth_skill_name": "Draft technical blog post (24196)"
+    },
+    {
+      "query": "I want to learn how to automate incident response plan for 99.99% uptime. variant 9705",
+      "ground_truth_skill_id": "4d4faa05",
+      "ground_truth_skill_name": "Automate incident response plan (9705)"
+    },
+    {
+      "query": "Find a way to strategize competitive analysis with compliance requirements. variant 28166",
+      "ground_truth_skill_id": "b1ec1850",
+      "ground_truth_skill_name": "Strategize competitive analysis (28166)"
+    },
+    {
+      "query": "Can you strategize talent pipeline?",
+      "ground_truth_skill_id": "aa913d2c",
+      "ground_truth_skill_name": "Strategize talent pipeline (8352)"
+    },
+    {
+      "query": "Describe how to clean time series forecast via clustering algorithms. variant 2741",
+      "ground_truth_skill_id": "eadc45c5",
+      "ground_truth_skill_name": "Clean time series forecast (2741)"
+    },
+    {
+      "query": "How would you patch network firewall rule with infrastructure-as-code. variant 20202?",
+      "ground_truth_skill_id": "0fa42d3c",
+      "ground_truth_skill_name": "Patch network firewall rule (20202)"
+    },
+    {
+      "query": "How would you translate script for a video for multilingual markets. variant 23897?",
+      "ground_truth_skill_id": "85a9bcda",
+      "ground_truth_skill_name": "Translate script for a video (23897)"
+    },
+    {
+      "query": "Describe how to refactor machine learning model for cloud deployment. variant 2614",
+      "ground_truth_skill_id": "46ef46e2",
+      "ground_truth_skill_name": "Refactor machine learning model (2614)"
+    },
+    {
+      "query": "Task: visualize time series forecast",
+      "ground_truth_skill_id": "317b1ae5",
+      "ground_truth_skill_name": "Visualize time series forecast (23449)"
+    },
+    {
+      "query": "What's the best approach to retain customer success plan for remote teams. variant 13767?",
+      "ground_truth_skill_id": "3c19a9b9",
+      "ground_truth_skill_name": "Retain customer success plan (13767)"
+    },
+    {
+      "query": "Can you scale database replication for multi-region availability. variant 16353?",
+      "ground_truth_skill_id": "9f3b6e40",
+      "ground_truth_skill_name": "Scale database replication (16353)"
+    },
+    {
+      "query": "Task: patch cost optimization report",
+      "ground_truth_skill_id": "51e082df",
+      "ground_truth_skill_name": "Patch cost optimization report (6736)"
+    },
+    {
+      "query": "I need someone who can storyboard ui mockup in minimalist style. variant 23178",
+      "ground_truth_skill_id": "e1e91b8b",
+      "ground_truth_skill_name": "Storyboard UI mockup (23178)"
+    },
+    {
+      "query": "Describe how to validate statistical model",
+      "ground_truth_skill_id": "f16ca7f8",
+      "ground_truth_skill_name": "Validate statistical model (26632)"
+    },
+    {
+      "query": "How would you design ui mockup with brand consistency. variant 10128?",
+      "ground_truth_skill_id": "00bb7b0b",
+      "ground_truth_skill_name": "Design UI mockup (10128)"
+    },
+    {
+      "query": "We need to localize user manual with persuasive techniques. variant 15514 for our project",
+      "ground_truth_skill_id": "5de9d7b1",
+      "ground_truth_skill_name": "Localize user manual (15514)"
+    },
+    {
+      "query": "Find a way to illustrate logo concept",
+      "ground_truth_skill_id": "b5515896",
+      "ground_truth_skill_name": "Illustrate logo concept (10649)"
+    },
+    {
+      "query": "We need to storyboard logo concept using generative ai tools. variant 11603 for our project",
+      "ground_truth_skill_id": "213aeb8e",
+      "ground_truth_skill_name": "Storyboard logo concept (11603)"
+    },
+    {
+      "query": "What's the best approach to plan competitive analysis for a startup environment. variant 27020?",
+      "ground_truth_skill_id": "07aedae6",
+      "ground_truth_skill_name": "Plan competitive analysis (27020)"
+    },
+    {
+      "query": "How would you design 3d character model for high-resolution output. variant 1624?",
+      "ground_truth_skill_id": "020162ce",
+      "ground_truth_skill_name": "Design 3D character model (1624)"
+    },
+    {
+      "query": "What's the best approach to budget investor presentation for enterprise clients. variant 11754?",
+      "ground_truth_skill_id": "e813ca9a",
+      "ground_truth_skill_name": "Budget investor presentation (11754)"
+    },
+    {
+      "query": "I want to learn how to validate statistical model under ethical guidelines. variant 21770",
+      "ground_truth_skill_id": "64c41428",
+      "ground_truth_skill_name": "Validate statistical model (21770)"
+    },
+    {
+      "query": "Task: translate technical blog post",
+      "ground_truth_skill_id": "2dfef1ad",
+      "ground_truth_skill_name": "Translate technical blog post (26982)"
+    },
+    {
+      "query": "I want to learn how to negotiate customer success plan",
+      "ground_truth_skill_id": "a4691084",
+      "ground_truth_skill_name": "Negotiate customer success plan (16263)"
+    },
+    {
+      "query": "Task: validate time series forecast using statistical methods. variant 17485",
+      "ground_truth_skill_id": "5eb0a930",
+      "ground_truth_skill_name": "Validate time series forecast (17485)"
+    },
+    {
+      "query": "What's the best approach to rewrite creative story in a professional tone. variant 10433?",
+      "ground_truth_skill_id": "d3d7df73",
+      "ground_truth_skill_name": "Rewrite creative story (10433)"
+    },
+    {
+      "query": "Task: proofread social media thread",
+      "ground_truth_skill_id": "16907881",
+      "ground_truth_skill_name": "Proofread social media thread (7084)"
+    },
+    {
+      "query": "We need to scale cost optimization report with automated alerting. variant 25070 for our project",
+      "ground_truth_skill_id": "c5c57389",
+      "ground_truth_skill_name": "Scale cost optimization report (25070)"
+    },
+    {
+      "query": "Task: aggregate financial transactions with automated pipelines. variant 2537",
+      "ground_truth_skill_id": "86ff8ae9",
+      "ground_truth_skill_name": "Aggregate financial transactions (2537)"
+    },
+    {
+      "query": "What's the best approach to polish product description in concise format. variant 30847?",
+      "ground_truth_skill_id": "2cd15f34",
+      "ground_truth_skill_name": "Polish product description (30847)"
+    },
+    {
+      "query": "I want to learn how to secure cost optimization report under soc2 compliance. variant 14577",
+      "ground_truth_skill_id": "cb212a7d",
+      "ground_truth_skill_name": "Secure cost optimization report (14577)"
+    },
+    {
+      "query": "Find a way to optimize ci/cd workflow",
+      "ground_truth_skill_id": "a0b6d841",
+      "ground_truth_skill_name": "Optimize CI/CD workflow (13079)"
+    },
+    {
+      "query": "I want to learn how to edit creative story for multilingual markets. variant 30166",
+      "ground_truth_skill_id": "d4a32408",
+      "ground_truth_skill_name": "Edit creative story (30166)"
+    },
+    {
+      "query": "Can you refactor unit test suite?",
+      "ground_truth_skill_id": "4427f9b1",
+      "ground_truth_skill_name": "Refactor unit test suite (22915)"
+    },
+    {
+      "query": "I need someone who can secure kubernetes cluster",
+      "ground_truth_skill_id": "706c810e",
+      "ground_truth_skill_name": "Secure Kubernetes cluster (20000)"
+    },
+    {
+      "query": "What's the best approach to deploy graphql schema?",
+      "ground_truth_skill_id": "b05166ba",
+      "ground_truth_skill_name": "Deploy GraphQL schema (14915)"
+    },
+    {
+      "query": "Can you hypothesize hypothesis test for reproducible research. variant 14609?",
+      "ground_truth_skill_id": "0179bc16",
+      "ground_truth_skill_name": "Hypothesize hypothesis test (14609)"
+    },
+    {
+      "query": "Describe how to measure computational simulation",
+      "ground_truth_skill_id": "4dadea35",
+      "ground_truth_skill_name": "Measure computational simulation (1550)"
+    },
+    {
+      "query": "I need someone who can debug python function",
+      "ground_truth_skill_id": "34f62139",
+      "ground_truth_skill_name": "Debug Python function (12656)"
+    },
+    {
+      "query": "How would you report marketing funnel metrics?",
+      "ground_truth_skill_id": "12042633",
+      "ground_truth_skill_name": "Report marketing funnel metrics (26113)"
+    },
+    {
+      "query": "What's the best approach to draft email campaign?",
+      "ground_truth_skill_id": "390c9b6a",
+      "ground_truth_skill_name": "Draft email campaign (21512)"
+    },
+    {
+      "query": "Task: monitor customer churn data with real-time updates. variant 18258",
+      "ground_truth_skill_id": "8e4a460e",
+      "ground_truth_skill_name": "Monitor customer churn data (18258)"
+    },
+    {
+      "query": "Find a way to aggregate survey responses",
+      "ground_truth_skill_id": "4240efed",
+      "ground_truth_skill_name": "Aggregate survey responses (4549)"
+    },
+    {
+      "query": "I want to learn how to review microservice using test-driven development. variant 18292",
+      "ground_truth_skill_id": "3ed72758",
+      "ground_truth_skill_name": "Review microservice (18292)"
+    },
+    {
+      "query": "I want to learn how to review machine learning model following clean code principles. variant 23012",
+      "ground_truth_skill_id": "74db23ac",
+      "ground_truth_skill_name": "Review machine learning model (23012)"
+    },
+    {
+      "query": "How would you hire quarterly roadmap?",
+      "ground_truth_skill_id": "3f8ab20d",
+      "ground_truth_skill_name": "Hire quarterly roadmap (33384)"
+    },
+    {
+      "query": "I need someone who can automate incident response plan with automated alerting. variant 26193",
+      "ground_truth_skill_id": "2a3ff110",
+      "ground_truth_skill_name": "Automate incident response plan (26193)"
+    },
+    {
+      "query": "Looking for help to calibrate computational simulation with interdisciplinary collaboration. variant 21702",
+      "ground_truth_skill_id": "b20b32a2",
+      "ground_truth_skill_name": "Calibrate computational simulation (21702)"
+    },
+    {
+      "query": "We need to segment a/b test results with interactive dashboards. variant 1808 for our project",
+      "ground_truth_skill_id": "abc58c88",
+      "ground_truth_skill_name": "Segment A/B test results (1808)"
+    },
+    {
+      "query": "How would you design logo concept using generative ai tools. variant 7559?",
+      "ground_truth_skill_id": "d4e73d8b",
+      "ground_truth_skill_name": "Design logo concept (7559)"
+    },
+    {
+      "query": "I need someone who can migrate unit test suite for a web application. variant 17118",
+      "ground_truth_skill_id": "28a72734",
+      "ground_truth_skill_name": "Migrate unit test suite (17118)"
+    },
+    {
+      "query": "Can you onboard client proposal?",
+      "ground_truth_skill_id": "47a4ad4a",
+      "ground_truth_skill_name": "Onboard client proposal (11702)"
+    },
+    {
+      "query": "Can you clean marketing funnel metrics?",
+      "ground_truth_skill_id": "c1ece321",
+      "ground_truth_skill_name": "Clean marketing funnel metrics (17397)"
+    },
+    {
+      "query": "Task: plan project budget for enterprise clients. variant 2507",
+      "ground_truth_skill_id": "3bd85964",
+      "ground_truth_skill_name": "Plan project budget (2507)"
+    },
+    {
+      "query": "Task: outreach project budget with compliance requirements. variant 7104",
+      "ground_truth_skill_id": "a92601c2",
+      "ground_truth_skill_name": "Outreach project budget (7104)"
+    },
+    {
+      "query": "Can you translate business proposal with persuasive techniques. variant 28479?",
+      "ground_truth_skill_id": "0906397b",
+      "ground_truth_skill_name": "Translate business proposal (28479)"
+    },
+    {
+      "query": "How would you validate experimental protocol for high-impact journal submission. variant 22654?",
+      "ground_truth_skill_id": "a18d863d",
+      "ground_truth_skill_name": "Validate experimental protocol (22654)"
+    },
+    {
+      "query": "I want to learn how to pitch project budget with data-driven rationale. variant 20557",
+      "ground_truth_skill_id": "8e7ceb7c",
+      "ground_truth_skill_name": "Pitch project budget (20557)"
+    },
+    {
+      "query": "Looking for help to edit brand identity system with animation rigging. variant 28599",
+      "ground_truth_skill_id": "b102832c",
+      "ground_truth_skill_name": "Edit brand identity system (28599)"
+    },
+    {
+      "query": "Find a way to strategize market entry strategy under tight deadlines. variant 33516",
+      "ground_truth_skill_id": "ac1e4f41",
+      "ground_truth_skill_name": "Strategize market entry strategy (33516)"
+    },
+    {
+      "query": "Describe how to review social media thread for a general audience. variant 7578",
+      "ground_truth_skill_id": "a54bd87b",
+      "ground_truth_skill_name": "Review social media thread (7578)"
+    },
+    {
+      "query": "Looking for help to publish computational simulation with rigorous controls. variant 25244",
+      "ground_truth_skill_id": "826b07fd",
+      "ground_truth_skill_name": "Publish computational simulation (25244)"
+    },
+    {
+      "query": "I want to learn how to debug machine learning model",
+      "ground_truth_skill_id": "4cb949cb",
+      "ground_truth_skill_name": "Debug machine learning model (12457)"
+    },
+    {
+      "query": "What's the best approach to draft academic abstract in a professional tone. variant 16693?",
+      "ground_truth_skill_id": "38550dbc",
+      "ground_truth_skill_name": "Draft academic abstract (16693)"
+    },
+    {
+      "query": "What's the best approach to extract a/b test results with anomaly detection. variant 2908?",
+      "ground_truth_skill_id": "a101c8d6",
+      "ground_truth_skill_name": "Extract A/B test results (2908)"
+    },
+    {
+      "query": "I want to learn how to debug sql query using test-driven development. variant 28577",
+      "ground_truth_skill_id": "0fb0e03b",
+      "ground_truth_skill_name": "Debug SQL query (28577)"
+    },
+    {
+      "query": "We need to calibrate hypothesis test under ethical guidelines for our project",
+      "ground_truth_skill_id": "ce4144cb",
+      "ground_truth_skill_name": "Calibrate hypothesis test"
+    },
+    {
+      "query": "Find a way to publish dataset curation under ethical guidelines. variant 12912",
+      "ground_truth_skill_id": "24438c3f",
+      "ground_truth_skill_name": "Publish dataset curation (12912)"
+    },
+    {
+      "query": "I need someone who can replicate computational simulation with open science practices. variant 23869",
+      "ground_truth_skill_id": "f498e091",
+      "ground_truth_skill_name": "Replicate computational simulation (23869)"
+    },
+    {
+      "query": "I need someone who can scale log aggregation pipeline for 99.99% uptime. variant 28265",
+      "ground_truth_skill_id": "b62a4143",
+      "ground_truth_skill_name": "Scale log aggregation pipeline (28265)"
+    },
+    {
+      "query": "We need to backup log aggregation pipeline for our project",
+      "ground_truth_skill_id": "909b1dc2",
+      "ground_truth_skill_name": "Backup log aggregation pipeline (4585)"
+    },
+    {
+      "query": "We need to troubleshoot cost optimization report with automated alerting. variant 21639 for our project",
+      "ground_truth_skill_id": "591b9619",
+      "ground_truth_skill_name": "Troubleshoot cost optimization report (21639)"
+    },
+    {
+      "query": "I want to learn how to edit music loop",
+      "ground_truth_skill_id": "bf8157cf",
+      "ground_truth_skill_name": "Edit music loop (20572)"
+    },
+    {
+      "query": "I want to learn how to illustrate ui mockup",
+      "ground_truth_skill_id": "7fd0812d",
+      "ground_truth_skill_name": "Illustrate UI mockup (8167)"
+    },
+    {
+      "query": "I need someone who can storyboard motion graphic",
+      "ground_truth_skill_id": "abed7874",
+      "ground_truth_skill_name": "Storyboard motion graphic (19681)"
+    },
+    {
+      "query": "I want to learn how to model a/b test results for regulatory compliance. variant 33234",
+      "ground_truth_skill_id": "065e4e6d",
+      "ground_truth_skill_name": "Model A/B test results (33234)"
+    },
+    {
+      "query": "What's the best approach to backup log aggregation pipeline with infrastructure-as-code. variant 20269?",
+      "ground_truth_skill_id": "36f65c58",
+      "ground_truth_skill_name": "Backup log aggregation pipeline (20269)"
+    },
+    {
+      "query": "Find a way to rewrite technical blog post in concise format. variant 26764",
+      "ground_truth_skill_id": "8c878b92",
+      "ground_truth_skill_name": "Rewrite technical blog post (26764)"
+    },
+    {
+      "query": "I need someone who can illustrate digital painting",
+      "ground_truth_skill_id": "ecb6bc85",
+      "ground_truth_skill_name": "Illustrate digital painting (21376)"
+    },
+    {
+      "query": "What's the best approach to synthesize hypothesis test?",
+      "ground_truth_skill_id": "a80a7f51",
+      "ground_truth_skill_name": "Synthesize hypothesis test (26371)"
+    },
+    {
+      "query": "I need someone who can debug rest api with type safety. variant 19376",
+      "ground_truth_skill_id": "06e9cf29",
+      "ground_truth_skill_name": "Debug REST API (19376)"
+    },
+    {
+      "query": "I need someone who can strategize partnership deal under tight deadlines. variant 8341",
+      "ground_truth_skill_id": "c8cd23d3",
+      "ground_truth_skill_name": "Strategize partnership deal (8341)"
+    },
+    {
+      "query": "Describe how to validate sensor data stream with real-time updates. variant 12572",
+      "ground_truth_skill_id": "ca5f8dd0",
+      "ground_truth_skill_name": "Validate sensor data stream (12572)"
+    },
+    {
+      "query": "Can you measure experimental protocol with open science practices. variant 27554?",
+      "ground_truth_skill_id": "0d85ea8a",
+      "ground_truth_skill_name": "Measure experimental protocol (27554)"
+    },
+    {
+      "query": "I want to learn how to synthesize literature review with open science practices. variant 24847",
+      "ground_truth_skill_id": "1efcfcbb",
+      "ground_truth_skill_name": "Synthesize literature review (24847)"
+    },
+    {
+      "query": "Describe how to model financial transactions",
+      "ground_truth_skill_id": "c474ec49",
+      "ground_truth_skill_name": "Model financial transactions (11405)"
+    },
+    {
+      "query": "We need to synthesize dataset curation for reproducible research. variant 19723 for our project",
+      "ground_truth_skill_id": "c5e60f4f",
+      "ground_truth_skill_name": "Synthesize dataset curation (19723)"
+    },
+    {
+      "query": "We need to edit logo concept using generative ai tools. variant 26612 for our project",
+      "ground_truth_skill_id": "eadb975f",
+      "ground_truth_skill_name": "Edit logo concept (26612)"
+    },
+    {
+      "query": "How would you translate email campaign adhering to style guidelines?",
+      "ground_truth_skill_id": "c21f0e60",
+      "ground_truth_skill_name": "Translate email campaign"
+    },
+    {
+      "query": "Looking for help to pitch competitive analysis",
+      "ground_truth_skill_id": "d0197fd8",
+      "ground_truth_skill_name": "Pitch competitive analysis (19914)"
+    },
+    {
+      "query": "What's the best approach to migrate rest api with type safety. variant 18803?",
+      "ground_truth_skill_id": "414e261b",
+      "ground_truth_skill_name": "Migrate REST API (18803)"
+    },
+    {
+      "query": "I want to learn how to strategize competitive analysis for enterprise clients. variant 13774",
+      "ground_truth_skill_id": "d695d2b5",
+      "ground_truth_skill_name": "Strategize competitive analysis (13774)"
+    },
+    {
+      "query": "Can you integrate dockerfile using test-driven development. variant 28173?",
+      "ground_truth_skill_id": "a259e715",
+      "ground_truth_skill_name": "Integrate Dockerfile (28173)"
+    },
+    {
+      "query": "Find a way to publish computational simulation with open science practices. variant 21118",
+      "ground_truth_skill_id": "3ce174af",
+      "ground_truth_skill_name": "Publish computational simulation (21118)"
+    },
+    {
+      "query": "We need to visualize sensor data stream with interactive dashboards. variant 30473 for our project",
+      "ground_truth_skill_id": "f64db80b",
+      "ground_truth_skill_name": "Visualize sensor data stream (30473)"
+    },
+    {
+      "query": "Looking for help to calibrate literature review under ethical guidelines. variant 28952",
+      "ground_truth_skill_id": "191544c7",
+      "ground_truth_skill_name": "Calibrate literature review (28952)"
+    },
+    {
+      "query": "Looking for help to extract customer churn data for executive summary. variant 28977",
+      "ground_truth_skill_id": "eebe31d3",
+      "ground_truth_skill_name": "Extract customer churn data (28977)"
+    },
+    {
+      "query": "I need someone who can backup network firewall rule with infrastructure-as-code. variant 14005",
+      "ground_truth_skill_id": "d4095504",
+      "ground_truth_skill_name": "Backup network firewall rule (14005)"
+    },
+    {
+      "query": "What's the best approach to proofread script?",
+      "ground_truth_skill_id": "53450f32",
+      "ground_truth_skill_name": "Proofread script for a video (33500)"
+    },
+    {
+      "query": "We need to proofread technical blog post for a general audience. variant 31010 for our project",
+      "ground_truth_skill_id": "6e7228cd",
+      "ground_truth_skill_name": "Proofread technical blog post (31010)"
+    },
+    {
+      "query": "We need to proofread script for a video adhering to style guidelines. variant 11120 for our project",
+      "ground_truth_skill_id": "6ef140c5",
+      "ground_truth_skill_name": "Proofread script for a video (11120)"
+    },
+    {
+      "query": "Can you aggregate marketing funnel metrics with anomaly detection. variant 5557?",
+      "ground_truth_skill_id": "fa5d9730",
+      "ground_truth_skill_name": "Aggregate marketing funnel metrics (5557)"
+    },
+    {
+      "query": "What's the best approach to edit product description for a general audience. variant 18598?",
+      "ground_truth_skill_id": "20f17476",
+      "ground_truth_skill_name": "Edit product description (18598)"
+    },
+    {
+      "query": "Can you optimize kubernetes cluster for 99.99% uptime. variant 33780?",
+      "ground_truth_skill_id": "af9a58e3",
+      "ground_truth_skill_name": "Optimize Kubernetes cluster (33780)"
+    },
+    {
+      "query": "How would you prototype brand identity system with accessibility in mind. variant 21966?",
+      "ground_truth_skill_id": "396a8865",
+      "ground_truth_skill_name": "Prototype brand identity system (21966)"
+    },
+    {
+      "query": "We need to validate sales dataset for our project",
+      "ground_truth_skill_id": "27e87f99",
+      "ground_truth_skill_name": "Validate sales dataset (6120)"
+    },
+    {
+      "query": "Describe how to containerize python function",
+      "ground_truth_skill_id": "a1c0bdb1",
+      "ground_truth_skill_name": "Containerize Python function (15392)"
+    },
+    {
+      "query": "Can you pitch market entry strategy under tight deadlines. variant 20343?",
+      "ground_truth_skill_id": "0654921f",
+      "ground_truth_skill_name": "Pitch market entry strategy (20343)"
+    },
+    {
+      "query": "What's the best approach to audit log aggregation pipeline with zero-downtime deployment. variant 14722?",
+      "ground_truth_skill_id": "e4fde3f6",
+      "ground_truth_skill_name": "Audit log aggregation pipeline (14722)"
+    },
+    {
+      "query": "How would you storyboard logo concept in minimalist style. variant 13050?",
+      "ground_truth_skill_id": "486dd3e3",
+      "ground_truth_skill_name": "Storyboard logo concept (13050)"
+    },
+    {
+      "query": "I want to learn how to strategize competitive analysis with scalability focus. variant 9656",
+      "ground_truth_skill_id": "b51e0a5a",
+      "ground_truth_skill_name": "Strategize competitive analysis (9656)"
+    },
+    {
+      "query": "Find a way to validate experimental protocol under ethical guidelines. variant 1600",
+      "ground_truth_skill_id": "855d9fde",
+      "ground_truth_skill_name": "Validate experimental protocol (1600)"
+    },
+    {
+      "query": "We need to forecast sensor data stream for regulatory compliance. variant 3028 for our project",
+      "ground_truth_skill_id": "cdd476f6",
+      "ground_truth_skill_name": "Forecast sensor data stream (3028)"
+    },
+    {
+      "query": "How would you hypothesize research grant proposal under ethical guidelines. variant 16046?",
+      "ground_truth_skill_id": "fb28ba78",
+      "ground_truth_skill_name": "Hypothesize research grant proposal (16046)"
+    },
+    {
+      "query": "Describe how to budget talent pipeline with stakeholder alignment. variant 31138",
+      "ground_truth_skill_id": "647401b1",
+      "ground_truth_skill_name": "Budget talent pipeline (31138)"
+    },
+    {
+      "query": "What's the best approach to audit cost optimization report with automated alerting. variant 4772?",
+      "ground_truth_skill_id": "f3f19065",
+      "ground_truth_skill_name": "Audit cost optimization report (4772)"
+    },
+    {
+      "query": "I need someone who can negotiate quarterly roadmap with compliance requirements. variant 29846",
+      "ground_truth_skill_id": "09f7158f",
+      "ground_truth_skill_name": "Negotiate quarterly roadmap (29846)"
+    },
+    {
+      "query": "I need someone who can draft script for a video",
+      "ground_truth_skill_id": "fd3e0319",
+      "ground_truth_skill_name": "Draft script for a video (27160)"
+    },
+    {
+      "query": "How would you review hypothesis test under ethical guidelines. variant 12742?",
+      "ground_truth_skill_id": "93aa9eec",
+      "ground_truth_skill_name": "Review hypothesis test (12742)"
+    },
+    {
+      "query": "Looking for help to render 3d character model",
+      "ground_truth_skill_id": "ecb0706b",
+      "ground_truth_skill_name": "Render 3D character model (25164)"
+    },
+    {
+      "query": "We need to hire project budget for our project",
+      "ground_truth_skill_id": "36eb754d",
+      "ground_truth_skill_name": "Hire project budget (32399)"
+    },
+    {
+      "query": "Looking for help to synthesize dataset curation",
+      "ground_truth_skill_id": "2bba10cc",
+      "ground_truth_skill_name": "Synthesize dataset curation (26191)"
+    },
+    {
+      "query": "Find a way to compose 3d character model for high-resolution output. variant 15989",
+      "ground_truth_skill_id": "52e55bc4",
+      "ground_truth_skill_name": "Compose 3D character model (15989)"
+    },
+    {
+      "query": "Find a way to compose video transition with animation rigging. variant 9671",
+      "ground_truth_skill_id": "e7929e3a",
+      "ground_truth_skill_name": "Compose video transition (9671)"
+    },
+    {
+      "query": "I need someone who can segment financial transactions with interactive dashboards. variant 363",
+      "ground_truth_skill_id": "d0836ab5",
+      "ground_truth_skill_name": "Segment financial transactions (363)"
+    },
+    {
+      "query": "Can you proofread script for a video?",
+      "ground_truth_skill_id": "7a4e7bdb",
+      "ground_truth_skill_name": "Proofread script for a video (6985)"
+    },
+    {
+      "query": "I want to learn how to extract customer churn data with real-time updates. variant 27862",
+      "ground_truth_skill_id": "497ab34e",
+      "ground_truth_skill_name": "Extract customer churn data (27862)"
+    },
+    {
+      "query": "Describe how to model sensor data stream for regulatory compliance. variant 14341",
+      "ground_truth_skill_id": "2ff0bbda",
+      "ground_truth_skill_name": "Model sensor data stream (14341)"
+    },
+    {
+      "query": "Task: hypothesize statistical model under ethical guidelines. variant 11526",
+      "ground_truth_skill_id": "e9e1e31c",
+      "ground_truth_skill_name": "Hypothesize statistical model (11526)"
+    },
+    {
+      "query": "Can you monitor ci/cd workflow for 99.99% uptime. variant 33944?",
+      "ground_truth_skill_id": "86ff1429",
+      "ground_truth_skill_name": "Monitor CI/CD workflow (33944)"
+    },
+    {
+      "query": "We need to hypothesize statistical model under ethical guidelines. variant 30444 for our project",
+      "ground_truth_skill_id": "21920c10",
+      "ground_truth_skill_name": "Hypothesize statistical model (30444)"
+    },
+    {
+      "query": "Describe how to polish technical blog post for a general audience. variant 3291",
+      "ground_truth_skill_id": "b821b621",
+      "ground_truth_skill_name": "Polish technical blog post (3291)"
+    },
+    {
+      "query": "Can you prototype motion graphic using generative ai tools. variant 16331?",
+      "ground_truth_skill_id": "ed2dec20",
+      "ground_truth_skill_name": "Prototype motion graphic (16331)"
+    },
+    {
+      "query": "Find a way to replicate statistical model with rigorous controls. variant 7953",
+      "ground_truth_skill_id": "10db65c8",
+      "ground_truth_skill_name": "Replicate statistical model (7953)"
+    },
+    {
+      "query": "We need to plan customer success plan under tight deadlines. variant 29914 for our project",
+      "ground_truth_skill_id": "da18c8c8",
+      "ground_truth_skill_name": "Plan customer success plan (29914)"
+    },
+    {
+      "query": "Describe how to draft creative story",
+      "ground_truth_skill_id": "55654d72",
+      "ground_truth_skill_name": "Draft creative story (8738)"
+    },
+    {
+      "query": "I need someone who can review user manual in a professional tone. variant 30450",
+      "ground_truth_skill_id": "3bd9ecff",
+      "ground_truth_skill_name": "Review user manual (30450)"
+    },
+    {
+      "query": "Looking for help to publish hypothesis test with interdisciplinary collaboration. variant 20794",
+      "ground_truth_skill_id": "29ab50e9",
+      "ground_truth_skill_name": "Publish hypothesis test (20794)"
+    },
+    {
+      "query": "Describe how to validate literature review with rigorous controls. variant 29004",
+      "ground_truth_skill_id": "21bf2abd",
+      "ground_truth_skill_name": "Validate literature review (29004)"
+    },
+    {
+      "query": "Looking for help to hypothesize experimental protocol for reproducible research. variant 33081",
+      "ground_truth_skill_id": "fbe0cca0",
+      "ground_truth_skill_name": "Hypothesize experimental protocol (33081)"
+    },
+    {
+      "query": "How would you patch network firewall rule under soc2 compliance. variant 27966?",
+      "ground_truth_skill_id": "9cd1ceaf",
+      "ground_truth_skill_name": "Patch network firewall rule (27966)"
+    },
+    {
+      "query": "I need someone who can scale database replication with infrastructure-as-code. variant 29223",
+      "ground_truth_skill_id": "1e5bf206",
+      "ground_truth_skill_name": "Scale database replication (29223)"
+    },
+    {
+      "query": "Find a way to extract time series forecast for regulatory compliance. variant 10430",
+      "ground_truth_skill_id": "2164fa54",
+      "ground_truth_skill_name": "Extract time series forecast (10430)"
+    },
+    {
+      "query": "I want to learn how to segment marketing funnel metrics",
+      "ground_truth_skill_id": "276fdcfa",
+      "ground_truth_skill_name": "Segment marketing funnel metrics (31108)"
+    },
+    {
+      "query": "I want to learn how to synthesize peer review",
+      "ground_truth_skill_id": "fff3a045",
+      "ground_truth_skill_name": "Synthesize peer review (29495)"
+    },
+    {
+      "query": "We need to visualize sales dataset with real-time updates. variant 16986 for our project",
+      "ground_truth_skill_id": "668a2b5d",
+      "ground_truth_skill_name": "Visualize sales dataset (16986)"
+    },
+    {
+      "query": "I want to learn how to measure peer review under ethical guidelines. variant 16203",
+      "ground_truth_skill_id": "afb60cb2",
+      "ground_truth_skill_name": "Measure peer review (16203)"
+    },
+    {
+      "query": "How would you simulate computational simulation under ethical guidelines. variant 18173?",
+      "ground_truth_skill_id": "9f49d02e",
+      "ground_truth_skill_name": "Simulate computational simulation (18173)"
+    },
+    {
+      "query": "Task: outline creative story in a professional tone. variant 31758",
+      "ground_truth_skill_id": "dc6f7f3c",
+      "ground_truth_skill_name": "Outline creative story (31758)"
+    },
+    {
+      "query": "We need to validate customer churn data for our project",
+      "ground_truth_skill_id": "97e40394",
+      "ground_truth_skill_name": "Validate customer churn data (15679)"
+    },
+    {
+      "query": "Looking for help to summarize technical blog post",
+      "ground_truth_skill_id": "f53dcd8d",
+      "ground_truth_skill_name": "Summarize technical blog post (17996)"
+    },
+    {
+      "query": "What's the best approach to edit 3d character model in minimalist style. variant 28827?",
+      "ground_truth_skill_id": "27a718c9",
+      "ground_truth_skill_name": "Edit 3D character model (28827)"
+    },
+    {
+      "query": "Can you hypothesize peer review?",
+      "ground_truth_skill_id": "761b5505",
+      "ground_truth_skill_name": "Hypothesize peer review (5077)"
+    },
+    {
+      "query": "What's the best approach to summarize technical blog post in a professional tone. variant 18725?",
+      "ground_truth_skill_id": "23dd9db1",
+      "ground_truth_skill_name": "Summarize technical blog post (18725)"
+    },
+    {
+      "query": "Describe how to generate logo concept with animation rigging. variant 15367",
+      "ground_truth_skill_id": "64274317",
+      "ground_truth_skill_name": "Generate logo concept (15367)"
+    },
+    {
+      "query": "Looking for help to draft user manual matching brand voice. variant 17807",
+      "ground_truth_skill_id": "3328fb0a",
+      "ground_truth_skill_name": "Draft user manual (17807)"
+    },
+    {
+      "query": "Can you patch network firewall rule for 99.99% uptime. variant 22010?",
+      "ground_truth_skill_id": "c387ed9c",
+      "ground_truth_skill_name": "Patch network firewall rule (22010)"
+    },
+    {
+      "query": "Describe how to aggregate time series forecast with anomaly detection. variant 20952",
+      "ground_truth_skill_id": "9a5f3103",
+      "ground_truth_skill_name": "Aggregate time series forecast (20952)"
+    },
+    {
+      "query": "We need to validate research grant proposal with rigorous controls. variant 5280 for our project",
+      "ground_truth_skill_id": "564cae23",
+      "ground_truth_skill_name": "Validate research grant proposal (5280)"
+    },
+    {
+      "query": "I want to learn how to measure peer review",
+      "ground_truth_skill_id": "01411772",
+      "ground_truth_skill_name": "Measure peer review (9068)"
+    },
+    {
+      "query": "What's the best approach to segment time series forecast?",
+      "ground_truth_skill_id": "0fe7a838",
+      "ground_truth_skill_name": "Segment time series forecast (9884)"
+    },
+    {
+      "query": "Find a way to validate marketing funnel metrics",
+      "ground_truth_skill_id": "b3706251",
+      "ground_truth_skill_name": "Validate marketing funnel metrics (15155)"
+    },
+    {
+      "query": "What's the best approach to animate motion graphic with brand consistency. variant 25102?",
+      "ground_truth_skill_id": "998e7b61",
+      "ground_truth_skill_name": "Animate motion graphic (25102)"
+    },
+    {
+      "query": "How would you draft product description adhering to style guidelines. variant 10014?",
+      "ground_truth_skill_id": "8656a379",
+      "ground_truth_skill_name": "Draft product description (10014)"
+    },
+    {
+      "query": "Describe how to refactor python function for cloud deployment. variant 14021",
+      "ground_truth_skill_id": "16ae7817",
+      "ground_truth_skill_name": "Refactor Python function (14021)"
+    },
+    {
+      "query": "We need to review react component for a distributed system. variant 4209 for our project",
+      "ground_truth_skill_id": "ff7432c7",
+      "ground_truth_skill_name": "Review React component (4209)"
+    },
+    {
+      "query": "I want to learn how to validate research grant proposal with open science practices. variant 27188",
+      "ground_truth_skill_id": "1a2a8adc",
+      "ground_truth_skill_name": "Validate research grant proposal (27188)"
+    },
+    {
+      "query": "Looking for help to backup cloud infrastructure under soc2 compliance. variant 26712",
+      "ground_truth_skill_id": "6ad10c8a",
+      "ground_truth_skill_name": "Backup cloud infrastructure (26712)"
+    },
+    {
+      "query": "I need someone who can synthesize dataset curation with open science practices. variant 21684",
+      "ground_truth_skill_id": "afcf0a23",
+      "ground_truth_skill_name": "Synthesize dataset curation (21684)"
+    },
+    {
+      "query": "Can you review statistical model with interdisciplinary collaboration. variant 30534?",
+      "ground_truth_skill_id": "9227db8a",
+      "ground_truth_skill_name": "Review statistical model (30534)"
+    },
+    {
+      "query": "Task: review dataset curation with open science practices. variant 27248",
+      "ground_truth_skill_id": "819b9523",
+      "ground_truth_skill_name": "Review dataset curation (27248)"
+    },
+    {
+      "query": "Describe how to analyze investor presentation",
+      "ground_truth_skill_id": "2cfc9e20",
+      "ground_truth_skill_name": "Analyze investor presentation (4080)"
+    },
+    {
+      "query": "Describe how to model customer churn data with real-time updates. variant 13555",
+      "ground_truth_skill_id": "39c6c9f7",
+      "ground_truth_skill_name": "Model customer churn data (13555)"
+    },
+    {
+      "query": "What's the best approach to mix ui mockup?",
+      "ground_truth_skill_id": "b9d3b03a",
+      "ground_truth_skill_name": "Mix UI mockup (27534)"
+    },
+    {
+      "query": "Find a way to report marketing funnel metrics with automated pipelines. variant 25524",
+      "ground_truth_skill_id": "efeea6fb",
+      "ground_truth_skill_name": "Report marketing funnel metrics (25524)"
+    },
+    {
+      "query": "Can you optimize cloud infrastructure with zero-downtime deployment. variant 1280?",
+      "ground_truth_skill_id": "88ba8dfc",
+      "ground_truth_skill_name": "Optimize cloud infrastructure (1280)"
+    },
+    {
+      "query": "What's the best approach to aggregate survey responses?",
+      "ground_truth_skill_id": "93615298",
+      "ground_truth_skill_name": "Aggregate survey responses (24928)"
+    },
+    {
+      "query": "Find a way to synthesize hypothesis test",
+      "ground_truth_skill_id": "b27dda95",
+      "ground_truth_skill_name": "Synthesize hypothesis test (31259)"
+    },
+    {
+      "query": "Can you retain project budget with compliance requirements. variant 386?",
+      "ground_truth_skill_id": "327a4f48",
+      "ground_truth_skill_name": "Retain project budget (386)"
+    },
+    {
+      "query": "Looking for help to extract a/b test results",
+      "ground_truth_skill_id": "85d01485",
+      "ground_truth_skill_name": "Extract A/B test results (23052)"
+    },
+    {
+      "query": "We need to negotiate investor presentation with scalability focus. variant 19569 for our project",
+      "ground_truth_skill_id": "eec6c67d",
+      "ground_truth_skill_name": "Negotiate investor presentation (19569)"
+    },
+    {
+      "query": "How would you aggregate time series forecast?",
+      "ground_truth_skill_id": "773ab742",
+      "ground_truth_skill_name": "Aggregate time series forecast (25558)"
+    },
+    {
+      "query": "Describe how to hire investor presentation",
+      "ground_truth_skill_id": "b478a374",
+      "ground_truth_skill_name": "Hire investor presentation (27460)"
+    },
+    {
+      "query": "I need someone who can patch ci/cd workflow with automated alerting. variant 14453",
+      "ground_truth_skill_id": "9da46dc4",
+      "ground_truth_skill_name": "Patch CI/CD workflow (14453)"
+    },
+    {
+      "query": "Find a way to model sensor data stream using statistical methods. variant 31996",
+      "ground_truth_skill_id": "bd428a4e",
+      "ground_truth_skill_name": "Model sensor data stream (31996)"
+    },
+    {
+      "query": "Can you visualize marketing funnel metrics for regulatory compliance. variant 14380?",
+      "ground_truth_skill_id": "568d8b16",
+      "ground_truth_skill_name": "Visualize marketing funnel metrics (14380)"
+    },
+    {
+      "query": "What's the best approach to translate product description?",
+      "ground_truth_skill_id": "4fb266f9",
+      "ground_truth_skill_name": "Translate product description (17887)"
+    },
+    {
+      "query": "Describe how to aggregate a/b test results with automated pipelines. variant 28562",
+      "ground_truth_skill_id": "3902ded4",
+      "ground_truth_skill_name": "Aggregate A/B test results (28562)"
+    },
+    {
+      "query": "What's the best approach to model hypothesis test?",
+      "ground_truth_skill_id": "41759252",
+      "ground_truth_skill_name": "Model hypothesis test (31827)"
+    },
+    {
+      "query": "Task: troubleshoot network firewall rule under soc2 compliance. variant 1902",
+      "ground_truth_skill_id": "9670202c",
+      "ground_truth_skill_name": "Troubleshoot network firewall rule (1902)"
+    }
+  ],
+  "n_queries": 500
+}

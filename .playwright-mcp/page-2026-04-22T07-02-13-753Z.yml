@@ -1,0 +1,297 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: Research Project Report
+    - heading "SkillGraph. Sparse Attention for Skill Retrieval" [level=1] [ref=e4]:
+      - text: SkillGraph.
+      - emphasis [ref=e5]: Sparse Attention for Skill Retrieval
+    - paragraph [ref=e6]: A preprocessing-intelligent, zero-token runtime retrieval system for LLM agent skills. Bridging the semantic gap between user queries and skill descriptions through LLM-generated synthetic queries.
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: 72.1%
+        - generic [ref=e10]: Recall@10
+      - generic [ref=e11]:
+        - generic [ref=e12]: 34K
+        - generic [ref=e13]: Skills Indexed
+      - generic [ref=e14]:
+        - generic [ref=e15]: "0"
+        - generic [ref=e16]: Tokens / Query
+      - generic [ref=e17]:
+        - generic [ref=e18]: 170x
+        - generic [ref=e19]: Faster vs. Agentic
+    - generic [ref=e20]: Scroll to explore
+  - generic [ref=e22]:
+    - generic [ref=e23]: 01 / Problem
+    - heading "The Skill Discovery Gap" [level=2] [ref=e24]:
+      - text: The Skill Discovery
+      - emphasis [ref=e25]: Gap
+    - paragraph [ref=e26]:
+      - text: Modern LLM agents are equipped with thousands of reusable skills—yet finding the right skill for a given task remains a critical bottleneck. The gap is not in capability, but in
+      - strong [ref=e27]: discovery
+      - text: .
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: "Agent skills are standardized knowledge artifacts: markdown files containing API guides, code templates, detection thresholds, and best practices. A single skill ecosystem (skills.sh) hosts over 34,000 such artifacts, spanning domains from network security to financial modeling."
+        - paragraph [ref=e31]:
+          - text: Yet when an agent faces a real-world task—
+          - emphasis [ref=e32]: "\"analyze this PCAP file for intrusion patterns\""
+          - text: —it must somehow locate the single skill (
+          - code [ref=e33]: pcap-analysis
+          - text: ) among 34,000 candidates, based solely on the user's natural language query.
+        - paragraph [ref=e34]:
+          - text: The query
+          - strong [ref=e35]: "\"analyze network traffic\""
+          - text: and the skill name
+          - strong [ref=e36]: "\"pcap-analysis\""
+          - text: live in different semantic spaces. This is the
+          - strong [ref=e37]: query-skill semantic gap
+          - text: .
+      - generic [ref=e38]:
+        - paragraph [ref=e40]:
+          - strong [ref=e41]: SkillsBench
+          - text: (UCSB et al., 2026) provides 87 curated real-world tasks with ground-truth skill requirements. On this benchmark, the best agentic retrieval system achieves
+          - strong [ref=e42]: 68.3% Recall@10
+          - text: —but at the cost of
+          - strong [ref=e43]: ~5,000 tokens and multiple LLM calls per query
+          - text: .
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: "01"
+            - heading "Semantic Mismatch" [level=4] [ref=e47]
+            - paragraph [ref=e48]: User queries describe problems; skill names describe solutions. No direct lexical overlap.
+          - generic [ref=e49]:
+            - generic [ref=e50]: "02"
+            - heading "Scale" [level=4] [ref=e51]
+            - paragraph [ref=e52]: 34,000+ skills. Exhaustive dense search is O(N), prohibitively expensive at scale.
+          - generic [ref=e53]:
+            - generic [ref=e54]: "03"
+            - heading "Latency vs. Quality" [level=4] [ref=e55]
+            - paragraph [ref=e56]: Agentic methods use LLM-based iterative retrieval. Accurate, but seconds of latency per query.
+  - generic [ref=e57]:
+    - generic [ref=e58]: 02 / Core Insight
+    - heading "Intelligence Belongs in the Index, Not the Runtime" [level=2] [ref=e59]:
+      - text: Intelligence Belongs in the
+      - emphasis [ref=e60]: Index
+      - text: ", Not the Runtime"
+    - paragraph [ref=e61]: "The key realization: we can afford to use LLMs during preprocessing—once per skill—but we cannot afford LLM calls at query time."
+    - generic [ref=e62]:
+      - text: "\"What if, instead of asking an LLM to understand skills at query time, we ask it to understand them once—during index construction—and embed that understanding directly into the retrieval index?\""
+      - generic [ref=e63]: — Central Design Principle of SkillGraph
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - paragraph [ref=e66]:
+          - text: For each of the 34,000 skills, we use an LLM (Kimi k1.5) to generate
+          - strong [ref=e67]: 10 diverse synthetic user queries
+          - text: —the kinds of natural language questions that would lead a user to this skill.
+        - paragraph [ref=e68]:
+          - text: For
+          - code [ref=e69]: pcap-analysis
+          - text: ", the LLM generates queries like:"
+        - paragraph [ref=e70]: "\"analyze network packet captures\" · \"detect port scanning in traffic logs\" · \"compute network statistics from pcap files\""
+        - paragraph [ref=e71]:
+          - text: These synthetic queries are embedded and stored alongside the skill's own embedding, creating a
+          - strong [ref=e72]: multi-vector representation
+          - text: of each skill. At runtime, retrieval becomes a simple vector similarity search—
+          - strong [ref=e73]: zero tokens, millisecond latency
+          - text: .
+      - heading "Preprocessing vs. Runtime Cost" [level=4] [ref=e76]
+  - generic [ref=e79]:
+    - generic [ref=e80]: 03 / Architecture
+    - 'heading "Two-Stage Retrieval: SACR + Multi-Vector Re-ranking" [level=2] [ref=e81]':
+      - text: "Two-Stage Retrieval:"
+      - emphasis [ref=e82]: SACR
+      - text: +
+      - emphasis [ref=e83]: Multi-Vector Re-ranking
+    - paragraph [ref=e84]: SkillGraph combines sparse attention-based community routing for fast approximate retrieval with multi-vector dense re-ranking for high precision.
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]: Input
+          - generic [ref=e89]: User Query
+          - generic [ref=e90]: Natural language task description
+        - generic [ref=e91]: →
+        - generic [ref=e92]:
+          - generic [ref=e93]: Stage 1
+          - generic [ref=e94]: SACR Router
+          - generic [ref=e95]: Sparse community attention
+        - generic [ref=e96]: →
+        - generic [ref=e97]:
+          - generic [ref=e98]: Filter
+          - generic [ref=e99]: ~10K Candidates
+          - generic [ref=e100]: From 34K total skills
+        - generic [ref=e101]: →
+        - generic [ref=e102]:
+          - generic [ref=e103]: Stage 2
+          - generic [ref=e104]: Multi-Vector Rank
+          - generic [ref=e105]: max(skill_sim, syn_sim)
+        - generic [ref=e106]: →
+        - generic [ref=e107]:
+          - generic [ref=e108]: Output
+          - generic [ref=e109]: Top-K Skills
+          - generic [ref=e110]: Best-matching results
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - 'heading "SACR: Sparse Attention Community Routing" [level=5] [ref=e113]'
+          - list [ref=e114]:
+            - listitem [ref=e115]: — 3-level KMeans hierarchy (8 / 64 / 512 communities)
+            - listitem [ref=e116]: "— Query-aware attention: route through top communities"
+            - listitem [ref=e117]: — Filters 34K → ~10K candidates (71% reduction)
+            - listitem [ref=e118]: — 10ms latency, ~60% recall on its own
+        - generic [ref=e119]:
+          - heading "Multi-Vector Index" [level=5] [ref=e120]
+          - list [ref=e121]:
+            - listitem [ref=e122]: — 1 skill embedding + 10 synthetic query embeddings
+            - listitem [ref=e123]: "— Score: max(skill_sim, best_syn_sim)"
+            - listitem [ref=e124]: — 343,960 total vectors across 34K skills
+            - listitem [ref=e125]: — +9.3pp over dense baseline
+        - generic [ref=e126]:
+          - heading "Synthetic Query Generation" [level=5] [ref=e127]
+          - list [ref=e128]:
+            - listitem [ref=e129]: — LLM generates 10 queries per skill
+            - listitem [ref=e130]: "— User-perspective prompts: \"how would someone ask for this?\""
+            - listitem [ref=e131]: — One-time cost, zero runtime tokens
+            - listitem [ref=e132]: — Bridges query-skill semantic gap
+        - generic [ref=e133]:
+          - heading "5-Fold Cross-Validation" [level=5] [ref=e134]
+          - list [ref=e135]:
+            - listitem [ref=e136]: — SACR hyperparameters tuned on training folds
+            - listitem [ref=e137]: — Prevents overfitting to benchmark tasks
+            - listitem [ref=e138]: — Robust generalization estimates
+            - listitem [ref=e139]: — Standard deviation reported for all metrics
+  - generic [ref=e140]:
+    - generic [ref=e141]: 04 / Results
+    - heading "Benchmarking on SkillsBench" [level=2] [ref=e142]:
+      - text: Benchmarking on
+      - emphasis [ref=e143]: SkillsBench
+    - paragraph [ref=e144]: Evaluation on 87 real-world agent tasks from the UCSB SkillsBench, using task instructions as queries and required skills as ground truth.
+    - generic [ref=e145]:
+      - heading "Recall@10 Comparison" [level=4] [ref=e147]
+      - heading "Latency (ms, log scale)" [level=4] [ref=e151]
+    - table [ref=e155]:
+      - rowgroup [ref=e156]:
+        - row "System Recall@10 Latency Tokens / Query Pool Size" [ref=e157]:
+          - columnheader "System" [ref=e158]
+          - columnheader "Recall@10" [ref=e159]
+          - columnheader "Latency" [ref=e160]
+          - columnheader "Tokens / Query" [ref=e161]
+          - columnheader "Pool Size" [ref=e162]
+      - rowgroup [ref=e163]:
+        - row "Dense + SynQ (ours) 72.1% ± 16.2% 17.5 ms 0 34,396" [ref=e164]:
+          - cell "Dense + SynQ (ours)" [ref=e165]
+          - cell "72.1% ± 16.2%" [ref=e166]
+          - cell "17.5 ms" [ref=e167]
+          - cell "0" [ref=e168]
+          - cell "34,396" [ref=e169]
+        - row "SACR + SynQ (ours) 72.1% ± 16.2% 26.5 ms 0 ~10,000" [ref=e170]:
+          - cell "SACR + SynQ (ours)" [ref=e171]
+          - cell "72.1% ± 16.2%" [ref=e172]
+          - cell "26.5 ms" [ref=e173]
+          - cell "0" [ref=e174]
+          - cell "~10,000" [ref=e175]
+        - row "Dense Baseline (ours) 62.8% ± 12.7% 2.8 ms 0 34,396" [ref=e176]:
+          - cell "Dense Baseline (ours)" [ref=e177]
+          - cell "62.8% ± 12.7%" [ref=e178]
+          - cell "2.8 ms" [ref=e179]
+          - cell "0" [ref=e180]
+          - cell "34,396" [ref=e181]
+        - row "SACR Baseline (ours) 59.4% ± 9.2% 10.0 ms 0 ~10,000" [ref=e182]:
+          - cell "SACR Baseline (ours)" [ref=e183]
+          - cell "59.4% ± 9.2%" [ref=e184]
+          - cell "10.0 ms" [ref=e185]
+          - cell "0" [ref=e186]
+          - cell "~10,000" [ref=e187]
+        - row "UCSB Agentic Hybrid 68.3% ~seconds ~5,000 34,396" [ref=e188]:
+          - cell "UCSB Agentic Hybrid" [ref=e189]
+          - cell "68.3%" [ref=e190]
+          - cell "~seconds" [ref=e191]
+          - cell "~5,000" [ref=e192]
+          - cell "34,396" [ref=e193]
+    - generic [ref=e194]:
+      - generic [ref=e195]:
+        - generic [ref=e196]: +9.3pp
+        - generic [ref=e197]: SynQ Improvement
+        - generic [ref=e198]: Synthetic queries boost dense baseline from 62.8% to 72.1% Recall@10
+      - generic [ref=e199]:
+        - generic [ref=e200]: 170x
+        - generic [ref=e201]: Speedup
+        - generic [ref=e202]: 17.5ms vs. ~seconds of UCSB's LLM-based agentic retrieval
+      - generic [ref=e203]:
+        - generic [ref=e204]: "0"
+        - generic [ref=e205]: Runtime Tokens
+        - generic [ref=e206]: All intelligence is in the pre-built index; runtime is pure vector math
+      - generic [ref=e207]:
+        - generic [ref=e208]: 95%
+        - generic [ref=e209]: Recall Preserved
+        - generic [ref=e210]: SACR maintains 95% of dense recall while filtering 71% of candidates
+  - generic [ref=e211]:
+    - generic [ref=e212]: 05 / Ablation
+    - heading "Component Analysis" [level=2] [ref=e213]:
+      - text: Component
+      - emphasis [ref=e214]: Analysis
+    - paragraph [ref=e215]: Understanding the contribution of each component through controlled ablation on SkillsBench.
+    - generic [ref=e216]:
+      - heading "Component Contribution" [level=4] [ref=e218]
+      - heading "Per-Fold Recall@10 (Dense + SynQ)" [level=4] [ref=e222]
+    - generic [ref=e225]:
+      - paragraph [ref=e226]:
+        - strong [ref=e227]: Synthetic Query Generation (SynQ)
+        - text: is the single most impactful component, providing
+        - strong [ref=e228]: +9.3pp
+        - text: "improvement over the dense baseline. This confirms the central hypothesis: bridging the query-skill semantic gap at index time is far more efficient than attempting to bridge it at runtime."
+      - paragraph [ref=e229]:
+        - strong [ref=e230]: SACR
+        - text: provides a modest speedup (2.8x faster than dense) but introduces a recall penalty of ~3pp. The optimal SACR configuration varies across folds (L0=12-24, L1=60-100, L2=150-250), suggesting that community granularity should be task-dependent.
+      - paragraph [ref=e231]:
+        - text: The
+        - strong [ref=e232]: high variance
+        - text: "(±16.2%) across folds reveals an important insight: SkillsBench tasks are not uniformly difficult. Some folds contain tasks with highly generic queries (e.g., \"fix build errors\") where GT skills have no lexical overlap with the query, making semantic retrieval challenging regardless of method."
+  - generic [ref=e233]:
+    - generic [ref=e234]: 06 / Conclusion
+    - heading "What We Learned" [level=2] [ref=e235]:
+      - text: What We
+      - emphasis [ref=e236]: Learned
+    - generic [ref=e237]:
+      - generic [ref=e238]:
+        - paragraph [ref=e239]:
+          - strong [ref=e240]: SkillGraph demonstrates that preprocessing intelligence can substitute for runtime intelligence.
+          - text: By using LLMs to deeply understand skills during index construction—generating synthetic queries, building multi-vector representations—we achieve retrieval performance that exceeds state-of-the-art agentic methods while eliminating all runtime LLM calls.
+        - paragraph [ref=e241]:
+          - text: The
+          - strong [ref=e242]: multi-vector index
+          - text: (skill embedding + synthetic query embeddings) is the core innovation. It transforms the retrieval problem from "match query to skill name" to "match query to user intent"—a fundamentally easier problem because the synthetic queries are generated from the same distribution as real user queries.
+        - paragraph [ref=e243]:
+          - strong [ref=e244]: Speed and accuracy are not contradictory.
+          - text: At 17.5ms per query and 72.1% Recall@10, SkillGraph surpasses the UCSB agentic baseline (68.3%) by 3.8pp while being ~170x faster. For latency-sensitive agent systems, this is transformative.
+      - paragraph [ref=e247]:
+        - strong [ref=e248]: "Key Takeaway:"
+        - text: The future of agent skill retrieval lies not in smarter runtime reasoning, but in
+        - emphasis [ref=e249]: smarter index construction
+        - text: . Every token spent during preprocessing pays dividends at runtime—in latency, cost, and reliability.
+  - generic [ref=e250]:
+    - generic [ref=e251]: 07 / Future Work
+    - heading "What Comes Next" [level=2] [ref=e252]:
+      - text: What
+      - emphasis [ref=e253]: Comes Next
+    - generic [ref=e254]:
+      - generic [ref=e255]:
+        - generic [ref=e256]: Near-term
+        - generic [ref=e257]:
+          - heading "Graph RAG Expansion" [level=4] [ref=e258]
+          - paragraph [ref=e259]: Skills are connected by semantic relationships (related_skill_ids). A Graph RAG approach—starting from top-K retrieved skills and traversing the relationship graph—could surface relevant skills that were missed by vector similarity alone, particularly for multi-skill tasks.
+      - generic [ref=e260]:
+        - generic [ref=e261]: Near-term
+        - generic [ref=e262]:
+          - 'heading "SACR v2: Graph Attention Routing" [level=4] [ref=e263]'
+          - paragraph [ref=e264]: Current SACR uses community centroids for routing. Replacing this with a learned graph attention mechanism—where community relevance is conditioned on the query embedding through attention weights—could reduce the recall gap between SACR and dense retrieval from 3pp to near-zero.
+      - generic [ref=e265]:
+        - generic [ref=e266]: Mid-term
+        - generic [ref=e267]:
+          - heading "Adaptive Synthetic Queries" [level=4] [ref=e268]
+          - paragraph [ref=e269]: Current synthetic queries are static. An adaptive approach—monitoring which synthetic queries actually retrieve their parent skill on real user queries, and re-generating underperforming ones—could continuously improve index quality without human intervention.
+      - generic [ref=e270]:
+        - generic [ref=e271]: Long-term
+        - generic [ref=e272]:
+          - heading "Unified Skill Agent" [level=4] [ref=e273]
+          - paragraph [ref=e274]: "The ultimate vision: a retrieval module so fast and accurate that it becomes invisible. The agent simply states its intent, and the right skills are loaded automatically—no explicit retrieval step, no latency perceived by the user. SkillGraph is a step toward that vision."
+  - contentinfo [ref=e275]:
+    - paragraph [ref=e276]: SkillGraph — Sparse Attention for Skill Retrieval
+    - paragraph [ref=e277]: Built for the NeurIPS/ICML/ICLR 2026 submission cycle
