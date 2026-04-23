@@ -72,8 +72,8 @@ This is not a vocabulary problem---it's a **pragmatic distributional mismatch**.
 
 ```bash
 # Clone and install
-git clone https://github.com/EricLeeK/zero-token-synq.git
-cd zero-token-synq
+git clone https://github.com/EricLeeK/SynCRAG-skill.git
+cd SynCRAG-skill
 uv pip install -e ".[dev]"
 
 # Run evaluation
