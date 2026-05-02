@@ -6,8 +6,8 @@
   SkillGraph
   <br>
   <a href="https://arxiv.org/abs/2604.xxxxx"><img src="https://img.shields.io/badge/arXiv-cs.AI%20%7C%20cs.IR-1B365D?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv"></a>
-  <a href="https://github.com/EricLeeK/skill-graph"><img src="https://img.shields.io/badge/GitHub-skill--graph-1B365D?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://github.com/EricLeeK/skill-graph/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-1B365D?style=flat-square" alt="License"></a>
+  <a href="https://github.com/EricLeeK/SynCRAG-skill"><img src="https://img.shields.io/badge/GitHub-SynCRAG--skill-1B365D?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://github.com/EricLeeK/SynCRAG-skill/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-1B365D?style=flat-square" alt="License"></a>
   <br>
   <img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Framework-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
